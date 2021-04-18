@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/messageActivityBottomLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/ysf_message_activity_text_layout" />
+
+    <com.qiyukf.nim.uikit.session.module.input.MessageBottomContainer
+        android:id="@+id/nim_message_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ysf_window_background"
+        android:visibility="gone">
+
+        <com.qiyukf.nim.uikit.session.emoji.EmoticonPickerView
+            android:id="@+id/emoticon_picker_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </com.qiyukf.nim.uikit.session.module.input.MessageBottomContainer>
+</LinearLayout>

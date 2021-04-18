@@ -1,0 +1,11 @@
+{
+	"xdns_diamonds_6":"1",
+	"xdns_diamonds_30":"2",
+	"xdns_diamonds_68":"3",
+	"xdns_diamonds_128":"4",
+	"xdns_diamonds_328":"5",
+	"xdns_diamonds_648":"6",
+	"xdns_limitpack_6":"7",
+	"xdns_limitpack_12":"9",
+	"xdns_limitpack_8":"8"
+}

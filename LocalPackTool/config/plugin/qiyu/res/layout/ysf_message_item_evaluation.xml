@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/ysf_message_item_evaluation_invitation_layout"
+        android:layout_width="@dimen/ysf_bubble_content_max_width"
+        android:layout_height="wrap_content"
+        android:background="@color/ysf_grey_f3f3f3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/ysf_message_item_evaluation_invitation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ysf_evaluation_message_item_text"
+            android:textColor="@color/ysf_black"
+            android:textSize="@dimen/ysf_text_size_14" />
+
+        <Button
+            android:id="@+id/ysf_btn_message_item_evaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ysf_evaluation_button_bg"
+            android:paddingBottom="4dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="4dp"
+            android:text="@string/ysf_evaluation_message_item_btn"
+            android:textColor="@color/ysf_white"
+            android:textSize="@dimen/ysf_text_size_16" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ysf_message_item_evaluation_thanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ysf_message_notification_bg"
+        android:gravity="center"
+        android:maxWidth="@dimen/ysf_bubble_content_max_width"
+        android:paddingBottom="2dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="2dp"
+        android:textColor="@color/ysf_notification_text"
+        android:textSize="@dimen/ysf_text_size_12"
+        android:visibility="gone" />
+</merge>

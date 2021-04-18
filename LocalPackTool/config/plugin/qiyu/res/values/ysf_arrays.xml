@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ysf_dialog_items_queue">
+        <item>帮我排队</item>
+        <item>下次咨询</item>
+        <item>取消</item>
+    </string-array>
+</resources>

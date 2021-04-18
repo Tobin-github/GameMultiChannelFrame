@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kfgame.sdk.view.AutoLoginView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.kfgame.sdk.view.BaseSdkBgLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp" >
+
+        <com.kfgame.sdk.view.WarningLinearLayout
+            android:id="@+id/account_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kfgame_white_border_bg_transparent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:padding="5dp"
+                android:src="@drawable/kfgame_icon_account" />
+
+            <TextView
+                android:id="@+id/tv_phone_account"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:hint="请输入账号"
+                android:imeOptions="flagNoExtractUi"
+                android:paddingLeft="10dp"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="#909090"
+                android:textSize="14dp" />
+        </com.kfgame.sdk.view.WarningLinearLayout>
+
+
+        <com.kfgame.sdk.view.SdkTipsTextView
+            android:id="@+id/tv_switch_account_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/kfgame_selector_btn_orange_round"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="切换账号"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+
+    </com.kfgame.sdk.view.BaseSdkBgLinearLayout>
+
+</com.kfgame.sdk.view.AutoLoginView>

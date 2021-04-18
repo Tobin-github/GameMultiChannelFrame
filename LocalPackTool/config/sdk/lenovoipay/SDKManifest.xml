@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <permissionConfig>
+        
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+   
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 银联3.3.3添加权限 -->
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc.hce" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+
+    <!-- 基础权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--  联想 广告弹窗权限 -->
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+        
+    </permissionConfig>
+    
+    <applicationConfig keyword="com.lenovo.pop.ui.FlexibleActivity" >
+
+       <!-- 联想 广告弹窗    start -->
+        <meta-data
+            android:name="lenovo.open.appid"
+            android:value="1606121236133.app.ln" />
+        <!-- 游戏接入时请直接复制此项内容；其他应用此处填写分配给应用的token -->
+        <meta-data
+            android:name="lenovo:applicationToken"
+            android:value="PQY0Q8VH2888" />
+
+        <activity
+            android:name="com.lenovo.pop.ui.FlexibleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/com_lenovo_lsf_Translucent_NoTitle_Dialog" >
+        </activity>
+        <activity
+            android:name="com.lenovo.pop.ui.QuiteActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/com_lenovo_lsf_Translucent_NoTitle_Dialog" >
+        </activity>
+        <!-- 联想 广告弹窗    end -->
+
+
+        <!-- 爱贝银联支付结果返回 -->
+        <activity
+            android:name="com.iapppay.alpha.pay.channel.uppay.UpPayResultActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- 爱贝微信回调界面-->
+        <activity
+            android:name="com.iapppay.alpha.pay.channel.weixinpay.WeixinWapPayActivity"
+            android:configChanges="screenSize|orientation|keyboard|navigation|layoutDirection"
+            android:theme="@android:style/Theme.Translucent"/>
+
+
+        <!-- 银联3.3.3start -->
+        <uses-library
+            android:name="org.simalliance.openmobileapi"
+            android:required="false" />
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <!-- 银联3.3.3 end -->
+
+
+        <!-- alipay sdk begin (新的支付宝) -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+        <!-- alipay sdk end -->
+        
+    </applicationConfig>
+    
+</manifest>

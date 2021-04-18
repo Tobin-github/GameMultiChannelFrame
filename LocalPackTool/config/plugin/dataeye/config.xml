@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    
+    <params>
+        <param name="DC_APPID" required="1" showName="AppID" desc="" bWriteInManifest="1" bWriteInClient="0" />
+        <param name="DC_CHANNEL" required="1" showName="ChannelID" desc="" bWriteInManifest="1" bWriteInClient="0" /> 
+    </params>
+    
+    <operations>
+        <operation step="1" type="mergeManifest" from="SDKManifest.xml" to="AndroidManifest.xml" />
+        <operation step="2" type="copyRes" from="assets" to="assets" />
+        <operation step="3" type="copyRes" from="libs" to="lib" />
+        <operation step="4" type="copyRes" from="res" to="res" />
+        <operation step="5" type="copyRes" from="root" to="" />
+    </operations>
+    
+    <plugins>
+        <plugin name="com.u8.sdk.DataEyeAnalytics" type="5" desc="用户登录接口"/>
+    </plugins>
+    
+    <version>
+        <name>酷派DataEye插件</name>
+        <versionCode>1</versionCode>
+        <versionName>2.4.3</versionName>
+    </version>     
+    
+</config>

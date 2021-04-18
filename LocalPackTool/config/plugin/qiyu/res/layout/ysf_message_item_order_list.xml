@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ysf_bubble_max_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ysf_tv_order_list_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/ysf_black_222222"
+        android:textSize="@dimen/ysf_text_size_16" />
+
+    <include layout="@layout/ysf_include_divider" />
+
+    <com.qiyukf.unicorn.widget.ScrollListView
+        android:id="@+id/ysf_lv_order_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/ysf_order_list_action_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/ysf_include_divider" />
+
+        <TextView
+            android:id="@+id/ysf_tv_order_list_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ysf_message_inner_item_selector"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/ysf_grey_999999"
+            android:textSize="@dimen/ysf_text_size_14" />
+    </LinearLayout>
+</LinearLayout>

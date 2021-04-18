@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/ysf_include_divider" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ysf_message_quick_entry_container"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+</LinearLayout>

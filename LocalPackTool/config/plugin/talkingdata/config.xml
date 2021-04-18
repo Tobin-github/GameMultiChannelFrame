@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    
+    <params>
+        <param name="TD_APP_ID" value="54a0e798fd98c56c8000077f" required="1" showName="AppID" desc="talkingdata" bWriteInManifest="0" bWriteInClient="0" />
+    </params>
+    
+    <operations>
+        <operation step="1" type="mergeManifest" from="SDKManifest.xml" to="AndroidManifest.xml" />
+        <operation step="2" type="copyRes" from="assets" to="assets" />
+        <operation step="3" type="copyRes" from="libs" to="lib" />
+        <operation step="4" type="copyRes" from="res" to="res" />
+        <operation step="5" type="script" from="script.py" to="" />
+    </operations>
+    
+    <plugins>
+        <plugin name="com.u8.sdk.TDAnalytics" type="5" desc="统计分析插件"/>
+    </plugins>
+
+    <version>
+        <name>TalkingData</name>
+        <versionCode>1</versionCode>
+        <versionName>4.0.2</versionName>
+    </version>    
+    
+</config>

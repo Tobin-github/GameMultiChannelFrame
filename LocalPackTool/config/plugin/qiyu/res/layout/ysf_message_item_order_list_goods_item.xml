@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ysf_message_inner_item_selector"
+    android:orientation="vertical">
+
+    <include layout="@layout/ysf_message_item_goods_inner" />
+
+    <LinearLayout
+        android:id="@+id/ysf_v_order_list_goods_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/ysf_include_divider" />
+    </LinearLayout>
+</LinearLayout>

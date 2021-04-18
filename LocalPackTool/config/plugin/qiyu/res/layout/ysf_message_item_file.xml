@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_content"
+    android:layout_width="@dimen/ysf_bubble_max_width"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.qiyukf.unicorn.widget.FileNameTextView
+            android:id="@+id/message_item_file_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:ysf_fntMaxLines="2"
+            app:ysf_fntText="网易七鱼客户案例列表案例列表.psd"
+            app:ysf_fntTextColor="@color/ysf_black_222222"
+            app:ysf_fntTextSize="@dimen/ysf_text_size_16" />
+
+        <TextView
+            android:id="@+id/message_item_file_status_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:maxLines="1"
+            android:text="3.3MB  未下载"
+            android:textColor="@color/ysf_grey_999999"
+            android:textSize="@dimen/ysf_text_size_12" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/message_item_file_icon_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ysf_message_file_icon_unknown" />
+</LinearLayout>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>隐私原则</title>
+<meta name="renderer" content="webkit" />
+
+<script type="text/javascript">
+window.Env = {"WWW_HOST":"www.mafengwo.cn","IMG_HOST":"images.mafengwo.net","P_HOST":"passport.mafengwo.cn","P_HTTP":"https:\/\/passport.mafengwo.cn","PAGELET_HTTP":"http:\/\/pagelet.mafengwo.cn","JS_HOST":"js.mafengwo.net","UID":0,"CSTK":"05b719c25cc779c4c6d2f00d791e7773_648e89f5cd8786e8035e9c355e886822","GOOGLE_MAP_KEY":"AIzaSyD-Su0x_rPy1xehlMBcMyTqWkU49Bk53nQ","TONGJI_HOST":"tongji.mafengwo.cn"};
+</script>
+
+<link href="http://css.mafengwo.net/css/cv/css+base:css+jquery.suggest:css+plugins:css+plugins+jquery.jgrowl:css+other+popup:css+mfw-header.2015^YlVS^1517883076.css" rel="stylesheet" type="text/css"/>
+
+<link href="http://css.mafengwo.net/css/cv/css+others:css+register^YVY^1493174418.css" rel="stylesheet" type="text/css"/>
+
+
+<script language="javascript" src="http://js.mafengwo.net/js/cv/js+jquery-1.8.1.min:js+global+json2:js+M+Module:js+M+M:js+M+Log:js+m.statistics:js+advert+inspector^alw^1517667549.js" type="text/javascript" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    
+    
+
+<div id="header" xmlns="http://www.w3.org/1999/html">   
+
+<script>
+    //判断是否显示 下拉bar
+;(function () {
+    window.showBarFlag = true;
+    var realPathName = location.pathname,$nav = $('#Js_middleNav');
+    var regExp = /localdeals|sales|flight|insurance|activity/gi;
+    var pathArr = realPathName.match(regExp);
+        if(window.Env.middleNavHide) { $('.dropdown-bar').hide();return;}
+        if(realPathName == '/sales/0-0-0-5-0-0-0-0.html' || window.Env.salesType ==5){
+            $nav.children('[data-type="cruise"]').addClass('on');
+            window.showBarFlag = false;
+            $('.dropdown-bar').show();
+        }else if(realPathName == '/localdeals/0-0-0-21-0-0-0-0.html' || window.Env.salesType ==21){
+            $nav.children('[data-type="wifi"]').addClass('on');
+            window.showBarFlag = false;
+            $('.dropdown-bar').show();
+        }else if(window.Env.sales_title_tag == 'visa' || window.Env.salesType == 4){
+            $nav.children('[data-type="visa"]').addClass('on');
+            window.showBarFlag = false;
+            $('.dropdown-bar').show();
+        }else if(window.Env.sales_title_tag == 'semi_self_service' || realPathName == '/sales/0-0-0-6-0-0-0-0.html?group=4' || window.Env.salesType == 30 || window.Env.salesType == 6){
+            $nav.children('[data-type="freewalker"]').addClass('on');
+            window.showBarFlag = false;
+            $('.dropdown-bar').show();
+        }
+        else if(window.Env.salesType) {
+            switch(window.Env.salesType|0) {
+                case 1:
+                case 3:
+                    $nav.children('[data-type="sales"]').addClass('on');
+                    break;
+                case 2:
+                    $nav.children('[data-type="localdeals"]').addClass('on');
+                    break;
+                case 30:
+                case 6:
+                    $nav.children('[data-type="freewalker"]').addClass('on');
+                    break;
+                default:
+                    $nav.children('[data-type="localdeals"]').addClass('on');
+                    break;
+            }
+            window.showBarFlag = false;
+            $('.dropdown-bar').show();
+        }
+        else {
+            if( pathArr){
+                if(pathArr.length == 1 && pathArr[0] != 'activity'){
+                    switch(pathArr[0]){
+                        case 'localdeals':
+                            $nav.children('[data-type="localdeals"]').addClass('on');
+                            break;
+                        case 'insurance':
+                            $nav.children('[data-type="insurance"]').addClass('on');
+                            break;
+                        case 'sales':
+                            $nav.children('[data-type="sales"]').addClass('on');
+                            break;
+                        case 'flight':
+                            $nav.children('[data-type="flight"]').addClass('on');
+                            break;
+                        default:
+                            break;
+                    }
+                    window.showBarFlag = false;
+                    $('.dropdown-bar').show();
+                }else {
+                    if('activity'.indexOf(pathArr) != -1){
+                        window.showBarFlag  = true;
+                        $('.dropdown-bar').hide();
+                    }
+                }
+        }
+    }
+        // 点击时触发
+        $('.ul-dropdown-bar > li').on('click',function () {
+            $(this).addClass('on').siblings().removeClass('on');
+        });
+})();
+
+</script>
+
+</div>
+
+
+<!--maincon-->
+<div class="article">
+  <h1>隐私政策</h1>
+  <p>隐私权是每个人的重要权利，正易龙公司非常重视用户个人信息和隐私的保护。在使用正易龙公司的网站、产品和服务前，请您务必仔细阅读并透彻理解本《隐私政策》。一旦您选择使用或继续使用，即表示您认可并接受本《隐私政策》现有内容及其可能随时更新的内容，同意我们按照本《隐私政策》收集、使用、披露、储存和分享，或以其他方式运用您的相关信息。</p>
+  <p><strong>信息收集</strong></p>
+  <p>正易龙公司可能会通过如下方式收集与您有关的信息。如果您不提供相关信息，可能无法注册成为我们的用户或无法享受我们的某些服务，或者无法达到相关服务拟达到的效果。</p>
+  <p><strong>1、您提供的信息</strong><br>您在注册账户或使用我们的服务时，向我们提供的相关个人信息，例如您的姓名、邮件地址、电话号码、银行卡号、订单信息、交易记录其他信息等信息；您通过我们的服务向其他方提供的共享信息，以及您使用我们的服务时所储存的信息。<br>请您在注册时及时、详尽及准确的提供个人资料，并不断更新注册资料。如果因注册信息不真实而引起的问题，由您自行承担相应的后果。请您不要将您的帐号、密码转让或出借予他人使用。如您发现您的帐号遭他人非法使用，应立即通知正易龙公司。互联网上不排除因黑客行为或用户的保管疏忽导致帐号、密码遭他人非法使用，此类情况与正易龙公司无关。</p>
+  <p><strong>2、我们获取的您的信息</strong><br>您使用服务时我们可能收集如下信息：日志信息，指您使用我们的服务时，系统可能通过cookies或其他方式自动采集的技术信息，包括但不限于：IP地址信息、硬件设备或软件信息、SDK或API版本、平台、时间戳、应用标识符、应用程序版本、应用分发渠道、iOS供应商标识符（IDFV)、iOS广告标识符（IDFA)、安卓广告主标识符、网卡（MAC)地址、国际移动设备识别码（IMEI）、设备型号、终端制造厂商、终端设备操作系统版本、会话启动/停止时间、语言所在地、移动网络/国家代码、时区和网络状态（WiFi等)、硬盘、CPU和电池使用情况、位置信息（指您开启设备定位功能并使用我们基于位置提供的相关服务时，收集的有关您位置的信息）等。</p>
+  <p><strong>3、其合法途径收集您的信息</strong><br>我们还可能从其他合法来源收到关于您的信息并且将其加入我们的信息库，例如其他方使用我们的服务时所提供有关您的共享信息等等。</p>
+  <p><strong>信息使用</strong></p>
+  <p>正易龙公司利用收集的信息来提供、维护、保护和改进服务，同时开发新的服务为用户创造更好的体验，并提高我们的总体服务品质。</p>
+  <p>您理解并同意，正易龙公司可在如下情形使用您的信息：<br>1）向您提供服务，特别是为您提供定制服务；<br>
+    2）在我们提供服务时，用于身份验证、客户服务、安全防范、诈骗监测、存档和备份用途，确保我们向您提供的产品和服务的安全性；<br>
+    3）帮助我们设计新服务，改善我们现有服务；<br>
+    4）向您提供与您更加相关的广告以替代普遍投放的广告；<br>
+    5）评估我们服务中的广告和其他促销及推广活动的效果，并加以改善；<br>
+    6）正易龙公司可能会对产品使用情况进行统计；并可能会与公众分享这些统计信息，以展示我们服务的整体使用趋势；<br>
+    7）其他有利于本公司更好的为您提供服务的情形。</p>
+  <p>我们可能在必要时，例如因系统维护而暂停部分服务时，向您发出与服务有关的公告。您理解并认可您可能无法取消这些公告，因为这些公告与服务有关、性质不属于商业推广。</p>
+  <p><strong>信息披露</strong></p>
+  <p>正易龙公司将以高度的勤勉义务对待用户信息，除非事先获得您的授权或本《隐私政策》约定外，不会将这些信息对外公开或向正易龙管理公司之外的第三方提供。</p>
+  <p>您理解并同意，正易龙公司可在如下情形依法披露您的个人信息：<br>
+    1）事先获得用户的明确授权；<br>
+    2）您使用了必须披露个人信息才能正常使用的正易龙公司或其合作商提供产品或服务，比如向您邀请的对象显示电子邮件地址，以便于对方知晓邀请的来源；<br>
+    3）根据法律、法规要求或政府主管部门的强制性要求，或者为了维护公共利益；<br>
+    4）在紧急的情况下，为了保护正易龙公司及其用户之安全；<br>
+    5）为维护正易龙公司的合法权益，或正易龙服务的正常运营，例如查找、预防、处理欺诈或安全方面的问题；<br>
+    6）为向您提供我们的服务，我们以及我们的关联公司、合作伙伴及第三方服务供应商、承包商及代理，可能会将在必要范围内分享您的个人信息；<br>
+    7）其他符合法律，以及符合正易龙《服务协议》或其他相关协议、规定、指引的情形。<br>
+    正易龙也可能使用您的信息，通过各种方式向您发送营销信息，提供或推广我们或合作方提供的产品和服务。如您不希望我们将您的个人信息用作广告用途，您可以通过我们可能在广告中提供的相关提示，或可能在特定服务中提供的指引，或本《隐私政策》预留的电子邮件，要求我们停止为上述用途使用您的个人信息。<br>
+    我们可能会对您及（或）您的公司的身份和交易数据进行综合统计，并以正易龙判断合理的目的和用途将该综合统计向广告主披露。但是，在这些情况下，我们不会向这些机构披露任何可能用以识别用户的个人身份的资料，但从用户的用户名或其它可披露资料分析得出的资料不受此限。</p>
+  <p><strong>敏感信息</strong></p>
+  <p>某些个人信息因其特殊性可能被认为是敏感信息，例如您的种族、宗教、个人健康和医疗信息等。相比其他个人信息，敏感个人信息受到更加严格的保护。<br>
+    请注意，您在使用我们的服务时所提供、上传或发布的内容和信息，例如有关您在游记中发布的照片等信息，可能会泄露您的敏感个人信息。您需要谨慎地考虑，是否在使用我们的服务时披露相关敏感个人信息。<br>
+    <strong>您同意按本《隐私政策》来处理您的敏感个人信息。</strong></p>
+  <p><strong>信息存储</strong></p>
+  <p>所收集的用户信息和资料可能将保存在正易龙公司及其关联公司的服务器上，或正易龙公司委托机构的服务器上。<br>
+  <p><strong>外部链接</strong><br>
+  正易龙的网站、产品、或服务中可能含有到其他网站的链接。正易龙对那些网站的隐私保护措施不负任何责任。我们可能在任何需要的时候增加商业伙伴或共用品牌的网站。</p>
+  <p><strong>公开发布信息</strong><br>您发布游记、照片、嗡嗡等旅游信息的或评论将被显示在公共区域，对任何用户来说是公开的。请注意所有在这些场所公开的信息可能会被公众阅读，请您在决定公布您的个人信息前仔细考虑。
+  </p>
+  <p><strong>信息安全息</strong><br>正易龙公司尽力保护您的信息安全，以防信息的丢失、不当使用、未经授权的披露等，我们将为此采取合理的预防措施，使用符合行业标准的加密技术来保护您在使用本服务中涉及的数据。但是，您理解并确认，任何人无法保证互联网数据100%的安全，如果出现数据安全，将会由您个人承担。<br>
+    如果正易龙公司得知有安全系统漏洞，我们可能在必要时通过您预留的电子邮件地址与你联系或在我们的网络系统上发布通知，并可能提供可能的保护措施。</p>
+  <p><strong>未成年人信息保护</strong><br>
+    正易龙公司非常重视对未成年人信息的保护。若您是18周岁以下的未成年人，在使用正易龙公司的产品和/或服务前，应事先取得您的家长或法定监护人的同意，并请要求您的父母或监护人阅读本《隐私政策》。</p>
+  <p><strong>变更</strong><br>
+    正易龙公司将根据法律、法规或政策，或正易龙公司网站、产品或服务的变化和技术的更新，或其他正易龙公司认为合理的原因，对本《隐私政策》进修改变更。变更以网站公告、或用户通知等合适的形式告知用户，或在网页中显著的位置予以发布。若您不接受变更后条款的，应立即停止使用，若您在本《隐私政策》变更后继续使用的，视为接受修订后的所有条款。</p>
+  <p><strong>适用范围</strong><br>
+    除另有明确约定外，我们所有的服务均适用本《隐私政策》。针对某些特定服务的特定隐私政策，将更具体地说明我们在该等服务中如何使用您的信息。该特定服务的隐私政策构成本《隐私政策》的一部分。</p>
+</div>
+<!--maincon end--><link href="http://css.mafengwo.net/css/mfw-footer.css?1517883076" rel="stylesheet" type="text/css"/>
+
+<script language="javascript" type="text/javascript">
+if (typeof M !== "undefined" && typeof M.loadResource === "function") {
+M.loadResource("http://js.mafengwo.net/js/cv/js+Dropdown:js+pageletcommon+pageHeadUserInfoWWWNormal:js+jquery.tmpl:js+M+module+InputListener:js+M+module+SuggestionXHR:js+M+module+DropList:js+M+module+Suggestion:js+M+module+MesSearchEvent:js+SiteSearch:js+AHeader:js+M+module+PageAdmin:js+M+module+Storage:js+M+module+Cookie:js+M+module+ResourceKeeper:js+jquery.jgrowl.min:js+AMessage:js+M+module+dialog+Layer:js+M+module+dialog+DialogBase:js+M+module+dialog+Dialog:js+M+module+FrequencyVerifyControl:js+M+module+FrequencySystemVerify:js+ALogin:js+M+module+ScrollObserver:js+M+module+QRCode:js+AToolbar:js+ACnzzGaLog:js+ARecruit:js+ALazyLoad^ZlxW^1517882661.js");
+}
+</script>
+
+</body>
+</html>

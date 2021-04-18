@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用 -->
+    <dimen name="ysf_action_bar_height">48dp</dimen>
+    <dimen name="ysf_title_bar_height">48dp</dimen>
+    <dimen name="ysf_title_bar_text_size">@dimen/ysf_text_size_18</dimen>
+    <dimen name="ysf_title_bar_icon_size">22.5dp</dimen>
+    <dimen name="ysf_avatar_size">50dp</dimen>
+    <dimen name="ysf_divider_height">0.5dp</dimen>
+    <dimen name="ysf_dialog_radius">2dp</dimen>
+    <dimen name="ysf_button_height">45dp</dimen>
+    <dimen name="ysf_button_small_height">35dp</dimen>
+
+    <!-- bubble -->
+    <!-- 360 - 125 = 235 -->
+    <dimen name="ysf_bubble_max_width">235dp</dimen>
+    <dimen name="ysf_bubble_content_max_width">228dp</dimen>
+    <dimen name="ysf_bottom_component_margin_horizontal">6dp</dimen>
+    <dimen name="ysf_bottom_component_margin_vertical">8dp</dimen>
+    <dimen name="ysf_bubble_time_layout_margin_top">18dp</dimen>
+    <dimen name="ysf_bubble_time_layout_margin_bottom">8dp</dimen>
+    <dimen name="ysf_bubble_unread_tip_layout_margin_top">3dp</dimen>
+    <dimen name="ysf_bubble_name_layout_margin_bottom">5dp</dimen>
+    <dimen name="ysf_bubble_layout_margin_side">6dp</dimen>
+    <dimen name="ysf_bubble_head_margin_horizontal">4dp</dimen>
+    <dimen name="ysf_bubble_margin_top">2dp</dimen>
+
+    <!-- message -->
+    <dimen name="ysf_message_action_list_height">220dp</dimen>
+    <dimen name="ysf_input_panel_image_margin_bottom">3dp</dimen>
+    <dimen name="ysf_input_panel_image_margin_top">20dp</dimen>
+    <dimen name="ysf_input_send_button_padding_ver">6dp</dimen>
+    <dimen name="ysf_input_send_button_padding_hor">6dp</dimen>
+    <dimen name="ysf_input_send_button_corner">5dp</dimen>
+    <dimen name="ysf_message_thumb_corner">3dp</dimen>
+    <dimen name="ysf_message_input_height">30dp</dimen>
+
+    <!--text size-->
+    <dimen name="ysf_text_size_9">9dp</dimen>
+    <dimen name="ysf_text_size_10">10dp</dimen>
+    <dimen name="ysf_text_size_11">11dp</dimen>
+    <dimen name="ysf_text_size_12">12dp</dimen>
+    <dimen name="ysf_text_size_13">13dp</dimen>
+    <dimen name="ysf_text_size_14">14dp</dimen>
+    <dimen name="ysf_text_size_15">15dp</dimen>
+    <dimen name="ysf_text_size_16">16dp</dimen>
+    <dimen name="ysf_text_size_17">17dp</dimen>
+    <dimen name="ysf_text_size_18">18dp</dimen>
+    <dimen name="ysf_text_size_19">19dp</dimen>
+    <dimen name="ysf_text_size_20">20dp</dimen>
+    <dimen name="ysf_text_size_21">21dp</dimen>
+    <dimen name="ysf_text_size_22">22dp</dimen>
+    <dimen name="ysf_text_size_23">23dp</dimen>
+    <dimen name="ysf_text_size_24">24dp</dimen>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kfgame.sdk.view.ThirdLoginView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="40dp"
+    android:paddingTop="20dp" >
+
+    <com.kfgame.sdk.view.BaseSdkBgLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="您还可以用以下方式登录游戏和您的朋友一起玩："
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_login_qq"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:src="@drawable/kfgame_login_qq" />
+
+            <ImageView
+                android:id="@+id/iv_login_weixin"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:src="@drawable/kfgame_login_weixin" />
+
+            <ImageView
+                android:id="@+id/iv_login_weibo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:src="@drawable/kfgame_login_alipay" />
+
+            <ImageView
+                android:id="@+id/iv_login_alipay"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:src="@drawable/kfgame_login_weibo" />
+
+            <ImageView
+                android:id="@+id/iv_login_baidu"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/kfgame_login_baidu"/>
+        </LinearLayout>
+
+    </com.kfgame.sdk.view.BaseSdkBgLinearLayout>
+
+</com.kfgame.sdk.view.ThirdLoginView>

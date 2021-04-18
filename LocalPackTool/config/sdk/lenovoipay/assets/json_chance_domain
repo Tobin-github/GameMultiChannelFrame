@@ -1,0 +1,17 @@
+{
+    "assets":"zhouyifeng",
+    "result": true,
+    "err": 0,
+    "ver": "1.0",
+    "domaincfg": {
+        "domain": "chance",
+
+        "packagename": "com.lestore.ad.demoa",
+
+        "openappid": "1609021013232.app.ln",
+
+        "adurl": "http://adapi.lenovogame.com/core/url",
+
+        "configurl": "http://adconfig.lenovogame.com/chance/config"
+    }
+}

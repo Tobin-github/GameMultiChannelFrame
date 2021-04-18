@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/iv_file_icon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ysf_message_file_icon_unknown_preview" />
+
+        <com.qiyukf.unicorn.widget.FileNameTextView
+            android:id="@+id/tv_file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:ysf_fntMaxLines="2"
+            app:ysf_fntText="网易七鱼客户案例列表.psd"
+            app:ysf_fntTextColor="@color/ysf_black_222222"
+            app:ysf_fntTextSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_file_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="文件大小：12 KB"
+            android:textColor="@color/ysf_grey_999999"
+            android:textSize="@dimen/ysf_text_size_16" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/download_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/ysf_btn_blue_bg_selector"
+                android:text="@string/ysf_file_download"
+                android:textColor="@color/ysf_white"
+                android:textSize="@dimen/ysf_text_size_18" />
+
+            <LinearLayout
+                android:id="@+id/ll_download_progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:id="@+id/pb_download"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="8dp"
+                    android:layout_weight="1"
+                    android:progressDrawable="@drawable/ysf_file_download_progress_bar" />
+
+                <ImageView
+                    android:id="@+id/iv_stop_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ysf_ic_file_download_stop" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/ysf_file_open_tips"
+            android:textColor="@color/ysf_grey_999999"
+            android:textSize="@dimen/ysf_text_size_12"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

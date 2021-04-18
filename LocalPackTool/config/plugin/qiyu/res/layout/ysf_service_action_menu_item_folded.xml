@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ysf_action_menu_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="12dp"
+    android:paddingTop="12dp">
+
+    <ImageView
+        android:id="@+id/ysf_action_menu_icon"
+        android:layout_width="@dimen/ysf_title_bar_icon_size"
+        android:layout_height="@dimen/ysf_title_bar_icon_size"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@drawable/ysf_evaluation_star_level_list_dark" />
+
+    <TextView
+        android:id="@+id/ysf_action_menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:maxLines="1"
+        android:text="@string/ysf_evaluation"
+        android:textColor="@color/ysf_title_bar_text_color_dark_selector"
+        android:textSize="@dimen/ysf_text_size_16" />
+</LinearLayout>

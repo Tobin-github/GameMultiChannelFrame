@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ysf_bubble_max_width"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ysf_tv_action_list_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/ysf_black_222222"
+        android:textSize="@dimen/ysf_text_size_16" />
+
+    <include layout="@layout/ysf_include_divider" />
+
+    <LinearLayout
+        android:id="@+id/ysf_ll_action_list_action_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+</LinearLayout>

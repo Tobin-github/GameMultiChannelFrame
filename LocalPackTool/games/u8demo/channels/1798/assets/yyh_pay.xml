@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<goods>
+
+    <!-- productID:游戏中商品固定ID -->
+    <!-- waresid:在yyh后台中配置的计费点的商品ID -->
+    <!-- openPrice:为true则说明该条商品支持开放价格，否则不支持 -->
+	<good productID="xdns_diamonds_6" desc="30钻石" waresid="1" openPrice="true"/>  
+	<good productID="xdns_limitpack_6" desc="微信秒回" waresid="7" openPrice="true"/> 
+	<good productID="xdns_limitpack_18" desc="恋爱工作一键完成" waresid="8" openPrice="true"/> 
+	<good productID="xdns_limitpack_12" desc="恋爱工作无冷却" waresid="9" openPrice="true"/> 
+	<good productID="xdns_diamonds_30" desc="150钻石" waresid="2" openPrice="true"/> 
+	<good productID="xdns_diamonds_68" desc="340钻石" waresid="3" openPrice="true"/> 
+	<good productID="xdns_diamonds_128" desc="640钻石" waresid="4" openPrice="true"/> 
+	<good productID="xdns_diamonds_328" desc="1640钻石" waresid="5" openPrice="true"/> 
+	<good productID="xdns_diamonds_648" desc="3240钻石" waresid="6" openPrice="true"/>
+
+</goods>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ysf_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ysf_title_bar_height"
+    android:background="@drawable/ysf_title_bar_bg">
+
+    <LinearLayout
+        android:id="@+id/ysf_title_bar_actions_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/ysf_title_bar_actions_layout">
+
+        <LinearLayout
+            android:id="@+id/ysf_title_bar_back_area"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/ysf_title_bar_back_selector"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="4dp">
+
+            <ImageView
+                android:id="@+id/ysf_title_bar_back_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/ysf_title_bar_back_icon" />
+
+            <TextView
+                android:id="@+id/ysf_title_bar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/ysf_title_bar_title_color"
+                android:textSize="@dimen/ysf_title_bar_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/ysf_include_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ysf_dialog_btn_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ysf_dialog_double_btn_left_bg_selector"
+            android:text="确定"
+            android:textColor="@color/ysf_blue_61a7ea"
+            android:textSize="@dimen/ysf_text_size_16" />
+
+        <include
+            layout="@layout/ysf_include_divider"
+            android:layout_width="@dimen/ysf_divider_height"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/ysf_dialog_btn_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/ysf_dialog_double_btn_right_bg_selector"
+            android:text="取消"
+            android:textColor="@color/ysf_blue_61a7ea"
+            android:textSize="@dimen/ysf_text_size_16" />
+    </LinearLayout>
+</LinearLayout>

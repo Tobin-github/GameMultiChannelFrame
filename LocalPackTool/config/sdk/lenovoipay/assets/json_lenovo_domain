@@ -1,0 +1,17 @@
+{
+    "assets":"zhouyifeng",
+    "result": true,
+    "err": 0,
+    "ver": "1.0",
+    "domaincfg": {
+        "domain": "lenovo",
+
+        "packagename": "com.lestore.ad.demo",
+
+        "openappid": "1603040292217.app.ln",
+
+        "adurl": "http://adcore.lenovomm.com/adxcore/url",
+
+        "configurl": "http://adcore.lenovomm.com/adxcore/config"
+    }
+}

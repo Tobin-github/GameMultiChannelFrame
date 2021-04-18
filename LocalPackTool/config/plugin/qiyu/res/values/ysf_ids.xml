@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ysf_tag_image_destroyed" type="id" />
+    <item name="ysf_tag_image_should_recycle" type="id" />
+</resources>

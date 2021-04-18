@@ -1,0 +1,56 @@
+{
+
+    "assets":"zhouyifeng",
+    "result": true,
+	"err": 0,
+	"ver": "1.0",
+	"plpd": 3600,
+	"size": "640x1136",
+	"cstatus": "1",
+	"domain": "http://res.lenovogame.com",
+	"datas": [
+
+	    {
+ 	       "type": "4",
+ 	       "ad": "appid=1609021013232.app.ln&sid=ad0cd66b-fe02-4a59-9556-1edc9b10efa5&adid=185&campid=116&grpid=199&adowner=1",
+ 	       "clickurl": "http://adapk.lenovomm.com/201609301006/553b6ebde21a23f693a58c8e60558dc4/dlserver/fileman/s3/apk/app/apk-advert/3594-2016-09-30100405-1475201045447.apk?v=5#pkg=com.baidu.searchbox&dlappv=",
+ 	       "vimgurl": "http://imglf1.ph.126.net/1XIJyrAC7QczlIa_3eAHDg==/6630752205863086141.gif",
+ 	       "himgurl": "http://res.lenovogame.com//stuff/img/201609/983a44c2cd3aeec33d219efc30d4e1a2.jpg",
+ 	       "bimgurl": "",
+ 	       "showtype": "1",
+ 	       "rehandle": 0,
+ 	       "traceskeletonurl": null
+	    }
+
+	],
+	"forcepadding": "0",
+	"ori": 1,
+	"displayvideocb": "1",
+	"vcdur": 604800,
+	"minshowdur": 0,
+	"minautoclosedur": 5,
+    "moninfo": 
+    	[
+    		{
+            "adid":"185",
+            "evtmonlists":[
+                {
+                    "evt":"26",
+                    "monlists":[
+                        "http://adapi.lenovogame.com/core/url?bt=303c1b0b1671c95ea8c7efa9ec2ef1fe&evt=26&dvid=a6b24a54-15d9-30ed-0000-01521fd63c18&adid=185&campid=116&grpid=194&adowner=1&sid=3b2ff776-6d92-435a-baa5-89f8cd750832&time=1478744409563&anid=e922f3694ca3878&os=Android&osv=5.1.1&imei=867302020683282&imsi=460008732145813&adtype=4&appv=4.0&sf=11&idfa=&idfv=&dt=Android&pid=1609021013232.app.ln&net=1&sdkv=f1.5",
+                        "https://www.baidu.com",
+                        "https://www.lenovo.com"
+                    ]
+                },
+                {
+                    "evt":"25",
+                    "monlists":[
+                        "http://adapi.lenovogame.com/core/url?bt=303c1b0b1671c95ea8c7efa9ec2ef1fe&evt=25&dvid=a6b24a54-15d9-30ed-0000-01521fd63c18&adid=185&campid=116&grpid=194&adowner=1&sid=3b2ff776-6d92-435a-baa5-89f8cd750832&time=1478744409563&anid=e922f3694ca3878&os=Android&osv=5.1.1&imei=867302020683282&imsi=460008732145813&adtype=4&appv=4.0&sf=11&idfa=&idfv=&dt=Android&pid=1609021013232.app.ln&net=1&sdkv=f1.5",
+                        "https://www.chukong.com",
+                        "https://www.huohu.com"
+                    ]
+                }
+            ]
+        }
+	]
+}

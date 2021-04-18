@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xml>
+	
+    <channels>
+
+		<channel>
+            <param name="id" value="1739" />
+            <param name="name" value="dianyou" />
+            <param name="sdk" value="dianyou" />
+            <param name="desc" value="点游SDK" />
+            <param name="suffix" value="com.kfgame.bsfb.qmdy"/>
+            <param name="splash" value="0" />
+			<param name="gameName" value="宝石风暴" />
+			<param name="icon" value="rb" />
+			<param name="splash_copy_to_unity" value="0" />
+            <sdk-params>
+                <param desc="BSUniqeSerial" name="UniqueSerial" value="000010-081-175" />
+                <param desc="BSServerName" name="ServerName" value="bsfb11" />
+				<param desc="GAME_ID" name="GAME_ID" value="KbLQuTGhq/Y=" />
+				<param desc="APP_KEY" name="APP_KEY" value="3817cb8df0ef5121" />
+				<param desc="APP_SECRET" name="APP_SECRET" value="ce196a7129934e28726f40c8a1f0644fb3243fa35f165f20" />
+            </sdk-params>
+
+            <sdk-version>
+                <versionCode>134</versionCode>   
+                <versionName>1.3.4</versionName>
+            </sdk-version>              
+                    
+        </channel>
+
+	        <channel>
+            <param name="id" value="1735" />
+            <param name="name" value="kaopu" />
+            <param name="sdk" value="kaopu" />
+            <param name="desc" value="kaopu" />
+            <param name="suffix" value="com.kfgame.bsfb2.kaopu"/>
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+
+            </sdk-params>
+
+            <sdk-version>
+                <versionCode>649</versionCode>
+                <versionName>6.4.9</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+            <param name="id" value="1733" />
+            <param name="name" value="alipay_wx" />
+            <param name="sdk" value="alipay_wx" />
+            <param name="desc" value="alipay_wx" />
+            <param name="suffix" value="com.kfgame.bsfb"/>
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="extraR" value="com.qiyukf.unicorn" />
+
+            <sdk-params>
+                <param desc="BSUniqeSerial" name="UniqueSerial" value="000049-101-170" />
+                <param desc="BSServerName" name="ServerName" value="bsfb10" />
+                <param desc="微信AppID" name="WX_APP_ID" value="wx823fe306b2996076" />
+            </sdk-params>
+            <plugins>
+                <plugin name="qiyu" desc="qiyu plugin"></plugin>
+				<plugin name="qq" desc="qq plugin" />
+            </plugins> 
+            <sdk-version>
+                <versionCode>15</versionCode>
+                <versionName>15.4.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+
+        <channel>
+
+            <param name="id" value="1705" />
+            <param name="name" value="weixin" />
+            <param name="sdk" value="weixin" />
+            <param name="desc" value="微信SDK" />
+            <param name="suffix" value="com.kfgame.bsfb" />
+            <param name="icon" value="rb" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="WX_APP_ID" desc="WX_APP_ID" value="wx621e8f97f3458956" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000000-001-152" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+            <sdk-version>
+                <versionCode>1</versionCode>
+                <versionName>1.3.2</versionName>
+            </sdk-version>
+        </channel>
+
+        <channel>
+
+            <param name="id" value="51" />
+            <param name="name" value="ysdk" />
+            <param name="sdk" value="ysdk" />
+            <param name="desc" value="腾讯应用宝(YSDK)" />
+            <param name="suffix" value="com.tencent.tmgp.lhp" />
+            <param name="icon" value="rb" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="QQ_APP_ID" desc="QQAppID" value="1106258485" />
+                <param name="WX_APP_ID" desc="微信AppID" value="wx3224d97b69de75db" />
+                <param name="OFFER_ID" desc="OfferId,一般就是QQ AppId" value="1106258485" />
+                <param name="YSDK_URL" desc="沙箱环境是https://ysdktest.qq.com；正式环境是https://ysdk.qq.com"
+                    value="https://ysdk.qq.com" />
+                <param name="M_APP_KEY" desc="米大师AppKey" value="mhQIJsCmoyBSUVbjgX1MVYCRztJucHyh" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000056-103-158" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>1</versionCode>
+                <versionName>1.3.2</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1705" />
+            <param name="name" value="BSGF" />
+            <param name="sdk" value="BSGF" />
+            <param name="desc" value="微信SDK" />
+            <param name="suffix" value="com.kfgame.bsfb" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="WX_APP_ID" desc="微信AppID" value="wx823fe306b2996076" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>1</versionCode>
+                <versionName>1.0.2</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1705" />
+            <param name="name" value="alipay" />
+            <param name="sdk" value="alipay" />
+            <param name="desc" value="支付宝SDK" />
+            <param name="suffix" value="com.kfgame.bsfb" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params></sdk-params>
+
+
+            <sdk-version>
+                <versionCode>15</versionCode>
+                <versionName>15.4.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1708" />
+            <param name="name" value="vivo" />
+            <param name="sdk" value="vivo" />
+            <param name="desc" value="vivoSDK" />
+            <param name="suffix" value="com.kfgame.lhdbzy.vivo" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="Vivo_AppID" desc="AppID" value="6ff22a5ab53445c5ac3018198200e970" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>15</versionCode>
+                <versionName>15.4.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1710" />
+            <param name="name" value="meizu" />
+            <param name="sdk" value="meizu" />
+            <param name="desc" value="MZSDK" />
+            <param name="suffix" value="com.kfgame.bsfb.mz" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="MZ_AppID" desc="AppID" value="3127915" />
+                <param name="MZ_AppKey" desc="AppKey" value="6e4c0169d3544b859753ca2f8bf751e4" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>15</versionCode>
+                <versionName>15.4.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+
+        <channel>
+
+            <param name="id" value="1711" />
+            <param name="name" value="huawei" />
+            <param name="sdk" value="huawei" />
+            <param name="desc" value="HuaWeiSDK" />
+            <param name="suffix" value="com.kfgame.bsfb" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="APP_ID" desc="APP_ID" value="100068047" />
+                <param name="PAY_ID" desc="PAY_ID" value="900086000026484324" />
+                <param name="PrivateKey" desc="PrivateKey"
+                    value="MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQCm1/dJSFrymsKCz589DO1i+ylOPJ0ydoZ2RQyxaakSLpBY3HCKZ/ROLcdlre05HCEvRvgkTU2GznSEPQw9qH1xNyUHHupdqVOsnyPITvD4lKxyCR+63Dl961WdB9+fv/Jn7Xma2d4ICHXt4INhghHjLmarNEtagxTXxKrRfMVLlTc80iWPN8LeCmJ83Aul20Mbbm9NkIEJahZGV1E9gTKu3h2Ac+kD2rkyIooDBhUuuIYhB9sRqheQ9eNBjJDnS2LIKy9n5/7/GfEOzHz/LgCrmAeZBrUNp36uOjoic9nVIvM1cq8evG+amHd6cl1niLMRDWT4jfcDjyE5LMo+/jS1AgMBAAECggEBAIaoO59b1HuFyIOHSsAdVOLUT2wjo8P8wV1nMW1nF9vi1QHDONmcOSN38zzveUzklSvxHYk/EtlAe+3Wz7Bb8pKTrUDoBMP/S9dAwcKDZB1c8SlAj+lioMwuSfTpS+VFKEIU+laujHLzUSriT2c9cW5oHtkC5eZxcTsMMcnN5/atbeqervllHj1ysoBlM/lDsdTHfGJIRioUnDgUw4l9JWIH/QEf1RcMDDAEMwspqIlVhBrrDG2MHQiPHGSBgAEyzK3dnrsVaefTAwpNMFufRbq92PY5L9bKqhggAdG8A9gC8SWMH8yrco+Q+dWIC0TudXgou7SuKLu5qYX4B0cIsWkCgYEA+xliOJQbij5VZJL6ZYGe739WSbWDIP9pJ8TFLQ8upevP76XZxBoQ9C6CwirVTQ/ro2Jtr7IaoL09QpJ64Wc80EO9xM3FwHb7iiTAC8JhIdlNiBcRUT0vCbBdI/rFyaZ/MelWGpvnIaWrnhGrTiV9Sob3pwp4IBAJBSCCCKOcZfcCgYEAqhmZhYEO2HZtla1Jp+4WvCEWaJaqND8JAMwofSVsaO542EUdKIxuaABSTISfOp37bblenPjHQV9NZBS084G1UOockYBlB5fc/elrFm2PE/3/P84R0aj8BQqrXyaxguCUFnAavAUY2nt018BoqK/QaI5GeGm5qZBEFAZ2K3+GH7MCgYEA3OJ4f9Lx4wtwbPfKY07CNGZszoxo3LcxlrVGypuHapflJCheR16yuUrM5eduGcs+e0yTtrHTMMEnyY83n18EpSRiJGTrZ6KDJgOsGOwWLAOPa373UeKjpT9Kv+LS6M+ZJpvfjarFiNjG/lcGvcjGza+q3XudLn9MoAD3wofChgMCgYEAqEMsj1jME6qK2n4Rl3G4wZ7FaO5pLceRI13RS4KCjAYiOmWb42mPKYfv4Utrq3NtrOuqwQKDMJKSnsaw/RQ5BPKhEfl9dxZtgCqvSP9VgoRGQ5qYG9raei5EuZowDHQVaWC5wXYVUMLBIU9u+Db6pQLgiOqkwyw3e8ush3jdd2sCgYEA4kQNy4fkXUSbZvSg1VWCBCrZh5xOTju0sTh0NN/NGpO5PnT8fs0APVtL5iOUCOJX1Yax6i9mvcoeXqOSnarhuWEjN5+/hosoNi5YBQE93RTHIK5vy+jA96qMUl8RlZ5nzSHyUVNGPzd4BpG1Y4jCsw+xJxeop/I1MfIhGddNoW4=" />
+                <param name="PublicKey" desc="PublicKey"
+                    value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmKLBMs2vXosqSR2rojMzioTRVt8oc1ox2uKjyZt6bHUK0u+OpantyFYwF3w1d0U3mCF6rGUnEADzXiX/2/RgLQDEXRD22er31ep3yevtL/r0qcO8GMDzy3RJexdLB6z20voNM551yhKhB18qyFesiPhcPKBQM5dnAOdZLSaLYHzQkQKANy9fYFJlLDo11I3AxefCBuoG+g7ilti5qgpbkm6rK2lLGWOeJMrF+Hu+cxd9H2y3cXWXxkwWM1OZZTgTq3Frlsv1fgkrByJotDpRe8SwkiVuRycR0AHsFfIsuZCFwZML16EGnHqm2jLJXMKIBgkZTzL8Z+201RmOheV4AQIDAQAB" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000000-001-152" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>29</versionCode>
+                <versionName>2.9.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1712" />
+            <param name="name" value="sougou" />
+            <param name="sdk" value="sougou" />
+            <param name="desc" value="sougouSDK" />
+            <param name="suffix" value="com.duiduigames.lhp.sogou" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="大话西游" />
+
+            <sdk-params>
+                <param name="Sougou_gid" desc="GID" value="16315" />
+                <param name="Sougou_AppKey" desc="AppKey"
+                    value="e974e1593f534081b2c3cf563b27a3d542939e6f6102e068092dee0b8cccfae6" />
+                <param name="Sougou_GameName" desc="GameName" value="连环炮-街机五张" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000012-113-158" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>57</versionCode>
+                <versionName>1.5.8</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1715" />
+            <param name="name" value="xiaomi" />
+            <param name="sdk" value="xiaomi" />
+            <param name="desc" value="xiaomiSDK" />
+            <param name="suffix" value="com.kfgame.sugargame.mi" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000066-120-175" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+				 <param name="AppID" desc="AppID" value="2882303761517629406" />
+				 <param name="AppKEY" desc="AppKEY" value="5551762941406" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>48</versionCode>
+                <versionName>4.8.30</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1716" />
+            <param name="name" value="kupai" />
+            <param name="sdk" value="kupai" />
+            <param name="desc" value="kupaiSDK" />
+            <param name="suffix" value="com.kfgame.lhdbzy.coolpad" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="Kupai_appid" desc="AppID" value="5000004519" />
+                <param name="Kupai_AppKey" desc="AppKey" value="a5de435008144902a610f2d5000f88fc" />
+                <param name="Kupai_PrivateKey" desc="PrivateKey"
+                    value="MIICXgIBAAKBgQCWZ7+8l9oLul0JfZQh7PYc57XeqYuXkiDp+4fdBMVVggycrl1OjGufPrg7Mm+6ZondO0adGJDviUYjEywQJjhQkQu0cqXPvz6W3/8gQiPQjURGkRvQWzyAEEQ/TdqLH8sE7bg6fJvAezYWyKy5BQ+x0sGotxc4mhyr1ZAn5GkYKwIDAQABAoGBAJKMur1XNMVyrE6gBuNbkZ8ugv5XM0XXw6xZQtOvX1vm4MUV/KKZng/HPBmqFkWIvdJLfI17r1VG64knmCqQIxOVGFY0yJxw4xqWccYKrhOLNtnzI/K20UIlFrR7XF3mxvGvcGKPvkYcuCye14KwhEy89toYwDZh/ejcD+7UR2nhAkEA2cWaJv43i7jDkjxcmglBzyS6TTFYce9TKP8rROxgPIWma0XsKUTGDG+cqv6yLpTjBY9+qDGwSpz28XR/EZBsmwJBALDOxl8cYfEpCUMagaKkoAxVGEtRHD5S1APxR97VN/8aDfbMVtDlnx3gnTLBHYAWM7bGhw0zF93R1rXyG2gjk7ECQQCcSCrwgM/r/ZSchaUPBkWsGnd4nkkSuuW7LiQnOlt2E5PyuCNbGnfmxNJyBIZq1350px4GJmKVqT+u2CO4vySxAkEAnNafo4kS3JExVSQzMKpmCuqFRXJq4mIpDmI/Bc0QAiwDjRTQQjgegKtZ5sblu1R2hUDwVeYn2q4kj3t3klZU0QJAfeQwE056IKspBYGnnRUk1vuCty4GCtBJHIs8g2uVk34pCJrFHuXhjtGiopcHnRU2LpeoDySyx4g71NkAHHrBSA==" />
+                <param name="Kupai_PublicKey" desc="PublicKey"
+                    value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdXCYx9y2TzCLGmN8c31DRjO27WIIm4J5KO2EKhuD9LREwfh339siNAdceHD9f5fO7spadokVr9fM+dyh6k+kk60SbH/MdK/Za7Ex1IJCDtVsdOaOteEAh+nj/OOzB4kMulvxsavZmYY7Cx1QZbc73h8/DkrgGfSB/sX2YpnrUiwIDAQAB" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>48</versionCode>
+                <versionName>4.8.30</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1717" />
+            <param name="name" value="htc" />
+            <param name="sdk" value="htc" />
+            <param name="desc" value="htcSDK" />
+            <param name="suffix" value="com.duiduigames.lhp.htc" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="连环炮-街机五张" />
+
+            <sdk-params>
+                <param name="GameCode" desc="CP_GAME_CODE" value="2995301671176" />
+                <param name="GameName" desc="CP_GAME_NAME" value="连环炮" />
+                <param name="PrivateKey" desc="CP_PRIVATE_KEY_PKCS8"
+                    value="MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBANvDrV230cFJbLb5G13/QDzYHypUKmfy4ZzUfFLeoKaOZsCX3bal36++ysBGAbBsN+YRnqe71IYBwGecFLVtGhaGlLMu1CipdQHR6c9x4XtJ2DmE494hZo546cLC3HymhWcjLQPbfSNqU2vuSU+ObQALfDNM57RW/DNyI20iss3RAgMBAAECgYBHWsaMmmWpq4x38HQZVgpmdwnPdZp7O9pTUI65XX2t9qiYOfcMGdmCN6GfQlvEC68urWPlNFBx3lm5im0S50TDl3lE2XKZfWV4DmOwE/gvqNEkvzhbgpQAZBzUyuB5py4pLERwErQaz4vjvO78PkTYm1DGUyl3y/h969rLA9Y+3QJBAPWxr94fTWCgAebL6E37oNWrfBOK6/P1HvY2hri2cCmTKfenssi6dRdxIJfuqTkjwZLremXqWEtIpUuoaOKdLJ8CQQDk+40zq89vMr+/qkt62iboktZXgR6bgVo9LzYfw7Q2HLDZ+1VLWbguWbsm9/8RbqYWw37zk4O0mJiNenDRvH+PAkA4i5NpMJUTVt/5KRam0/GZG2Vr7f4N4G0mxzfMTRiVSOxQtgS8k8UdBwk0TlYd82+6i31Y9U0qzmZUekbhWMELAkARvgQE2u0puo7s9O8AR+L35ljBUvniJrWtQ/k3oNxXzQVO/pBvVDZXMRC1RkX3PdGUtfUiPm3YEnLPk4smVSq1AkB0UqFLw47LHExLFtTrrFr67xtSctfsZuoPmWThDpfh6YOo0Fp6U0sC0Ao70i0rpmEaM3jHNZRVS9PS8eEw+hOg" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>612</versionCode>
+                <versionName>6.12.00</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1719" />
+            <param name="name" value="wlwq" />
+            <param name="sdk" value="wlwq" />
+            <param name="desc" value="玩来玩去SDK" />
+            <param name="suffix" value="com.duiduigames.lhp.wlwq" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="宝石风暴-街机五张" />
+
+            <sdk-params>
+                <param name="appid" desc="appid" value="12" />
+                <param name="loginKey" desc="loginKey" value="d12dd54508bd411ba6853b3b139d54f4" />
+                <param name="payKey" desc="payKey" value="e9ecd28ca097499f98f2b39880acfd32" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>2</versionCode>
+                <versionName>2.0.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1722" />
+            <param name="name" value="360" />
+            <param name="sdk" value="360" />
+            <param name="desc" value="360SDK" />
+            <param name="suffix" value="com.kfgame.u8sdk" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="连环夺宝风暴" />
+            <param name="extraR" value="com.qiyukf.unicorn" />
+
+            <sdk-params>
+                <param name="AppID" desc="AppID" value="203023286" />
+                <param name="AppKey" desc="AppKey" value="0bdfb87356c37597fa819700794a68a1" />
+                <param name="PrivateKey" desc="PrivateKey"
+                    value="fcb2823ca615efd11f09a9f5c9abbb80" />
+                <param name="IsLandScape" desc="IsLandScape" value="true" />
+                <param name="GameName" desc="GameName" value="连环夺宝风暴" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+            <plugins>
+                <plugin name="qiyu" desc="qiyu plugin"></plugin>
+            </plugins>
+
+            <sdk-version>
+                <versionCode>18</versionCode>
+                <versionName>1.8.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1721" />
+            <param name="name" value="iiugame" />
+            <param name="sdk" value="IIUGAME" />
+            <param name="desc" value="IIUGAMSDK" />
+            <param name="suffix" value="com.iiugame.bsfb" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="连环夺宝风暴" />
+
+            <sdk-params>
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+                <param name="IIUGame_gid" desc="GameID" value="10013" />
+            </sdk-params>
+
+            <sdk-version>
+                <versionCode>18</versionCode>
+                <versionName>1.8.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1723" />
+            <param name="name" value="jinli" />
+            <param name="sdk" value="jinli" />
+            <param name="desc" value="jinliSDK" />
+            <param name="suffix" value="com.kfgame.lhdbzy.jinli" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="连环夺宝掌娱" />
+
+            <sdk-params>
+                <param name="APIKey" desc="APIKey" value="4E7B241640524A2D9BADB003329DAE91" />
+                <param name="SecretKey" desc="SecretKey" value="B8CB9116FDAD4E5A90AB22DA628B7CD5" />
+                <param name="PublicKey" desc="PublicKey"
+                    value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCygJNb43L9QQtCplg+IYKKDTM7KPr/EElwH0q7+2MECnpLMU/Z6XCulZoVEfnlPCGya4JyEmQIEyWLQeYcq7rvf5OSxK1gVR/+OUvag2if3fwGYE2wbvljgaWVIms2dNYsM8OLJHHoSBW8yTzM0ejt6QB2xDMWHnHTN+Wp822yYwIDAQAB" />
+                <param name="PrivateKey" desc="PrivateKey"
+                    value="MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAL9AdOFIFa1pvTesDReCZzyq2vF+IlW5R2PI5352IyD1TKiy7z2kO0oBY9+zJ32EQlvqTrEOBn5Vp6i7NjT7ipeaYbooau7raCWO6ZDEQphAo9w90RZZ/fBMIwQpxBfTfLcSTYZ6Gx+sUlgts2Kke39yzrO2nNb9OeYFJjrQOTaVAgMBAAECgYA0/fgkv+N5xFWwilSqUfCnB7RYu5lp5UeZp341NSiwpidSixntG4duDwqMXkiv56i3bSnWt0snUDZ/czgm4BfbRUGxXMGcp2PB3yUA0wTRhlnQYbFS5O21xniCAxUoHldxdfyjax7GrSN4OHdlx9GU5aJjUh6JFZGVqlvtjhoyNQJBAODLsjPmccQ3D54qVjWDJRY9klT/C1vXM2BcZM3svj9BShOY1eS2Z3PF+ylkg8rDE9mq3E4d6k3kMUgCsBXHtAcCQQDZzL/lQAZS2LQeL4Rt4IeMaoH4BZ49V77n/mLbc349d44h7z7yCm1AJRe6Qh9qM9mAMnm4zFw9DKmd1WZMp3GDAkA6L//ct1XTeH0ub78I8v1ymFV8ctg52aaO1tuxAgrszLWkBPe40A5PRXwR5tbGcWB+A2ArSEsSBnNLNIbn3F2ZAkBY7onMigALBAFH8g8Y7n1qkHLRWznpwlJpWC31fYsmfhLDOHVzT16cuoidvTImo1VES1f4ZTmkk+8OS3yiAB0RAkEAirHWfwgFkCutMG8bvI6GUre5RmiB2Z9+Gwn/QikdIqy6lo9pyOdJlGqR6uI3edsoBDq2elrWUynRugwU3IS8qA==" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-154" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+            <sdk-version>
+                <versionCode>30106005</versionCode>
+                <versionName>3.1.6.e</versionName>
+            </sdk-version>
+
+        </channel>
+        <channel>
+
+            <param name="id" value="1724" />
+            <param name="name" value="OPPO" />
+            <param name="sdk" value="OPPO" />
+            <param name="desc" value="OPPOSDK" />
+            <param name="suffix" value="com.cshd.dhlhdb.nearme.gamecenter" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="大话连环夺宝" />
+
+            <sdk-params>
+                <param name="AppID" desc="AppID" value="6953" />
+                <param name="app_key" desc="app_key" value="5mr1k249zLC88Osc4ggg4kkCS" />
+                <param name="AppSecret" desc="AppSecret" value="7c422b88eB2cdD32589E6212ed016Da3" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+                <param name="debug_mode" desc="debug_mode" value="true" />
+                <param name="is_offline_game" desc="is_offline_game" value="false" />
+            </sdk-params>
+
+            <sdk-version>
+                <versionCode>2</versionCode>
+                <versionName>2.0.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1725" />
+            <param name="name" value="huawei2" />
+            <param name="sdk" value="huawei" />
+            <param name="desc" value="HuaWeiSDK" />
+            <param name="suffix" value="com.duiduigames.lhp.huawei" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="APP_ID" desc="APP_ID" value="100068047" />
+                <param name="PAY_ID" desc="PAY_ID" value="900086000026484324" />
+                <param name="PrivateKey" desc="PrivateKey"
+                    value="MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQCm1/dJSFrymsKCz589DO1i+ylOPJ0ydoZ2RQyxaakSLpBY3HCKZ/ROLcdlre05HCEvRvgkTU2GznSEPQw9qH1xNyUHHupdqVOsnyPITvD4lKxyCR+63Dl961WdB9+fv/Jn7Xma2d4ICHXt4INhghHjLmarNEtagxTXxKrRfMVLlTc80iWPN8LeCmJ83Aul20Mbbm9NkIEJahZGV1E9gTKu3h2Ac+kD2rkyIooDBhUuuIYhB9sRqheQ9eNBjJDnS2LIKy9n5/7/GfEOzHz/LgCrmAeZBrUNp36uOjoic9nVIvM1cq8evG+amHd6cl1niLMRDWT4jfcDjyE5LMo+/jS1AgMBAAECggEBAIaoO59b1HuFyIOHSsAdVOLUT2wjo8P8wV1nMW1nF9vi1QHDONmcOSN38zzveUzklSvxHYk/EtlAe+3Wz7Bb8pKTrUDoBMP/S9dAwcKDZB1c8SlAj+lioMwuSfTpS+VFKEIU+laujHLzUSriT2c9cW5oHtkC5eZxcTsMMcnN5/atbeqervllHj1ysoBlM/lDsdTHfGJIRioUnDgUw4l9JWIH/QEf1RcMDDAEMwspqIlVhBrrDG2MHQiPHGSBgAEyzK3dnrsVaefTAwpNMFufRbq92PY5L9bKqhggAdG8A9gC8SWMH8yrco+Q+dWIC0TudXgou7SuKLu5qYX4B0cIsWkCgYEA+xliOJQbij5VZJL6ZYGe739WSbWDIP9pJ8TFLQ8upevP76XZxBoQ9C6CwirVTQ/ro2Jtr7IaoL09QpJ64Wc80EO9xM3FwHb7iiTAC8JhIdlNiBcRUT0vCbBdI/rFyaZ/MelWGpvnIaWrnhGrTiV9Sob3pwp4IBAJBSCCCKOcZfcCgYEAqhmZhYEO2HZtla1Jp+4WvCEWaJaqND8JAMwofSVsaO542EUdKIxuaABSTISfOp37bblenPjHQV9NZBS084G1UOockYBlB5fc/elrFm2PE/3/P84R0aj8BQqrXyaxguCUFnAavAUY2nt018BoqK/QaI5GeGm5qZBEFAZ2K3+GH7MCgYEA3OJ4f9Lx4wtwbPfKY07CNGZszoxo3LcxlrVGypuHapflJCheR16yuUrM5eduGcs+e0yTtrHTMMEnyY83n18EpSRiJGTrZ6KDJgOsGOwWLAOPa373UeKjpT9Kv+LS6M+ZJpvfjarFiNjG/lcGvcjGza+q3XudLn9MoAD3wofChgMCgYEAqEMsj1jME6qK2n4Rl3G4wZ7FaO5pLceRI13RS4KCjAYiOmWb42mPKYfv4Utrq3NtrOuqwQKDMJKSnsaw/RQ5BPKhEfl9dxZtgCqvSP9VgoRGQ5qYG9raei5EuZowDHQVaWC5wXYVUMLBIU9u+Db6pQLgiOqkwyw3e8ush3jdd2sCgYEA4kQNy4fkXUSbZvSg1VWCBCrZh5xOTju0sTh0NN/NGpO5PnT8fs0APVtL5iOUCOJX1Yax6i9mvcoeXqOSnarhuWEjN5+/hosoNi5YBQE93RTHIK5vy+jA96qMUl8RlZ5nzSHyUVNGPzd4BpG1Y4jCsw+xJxeop/I1MfIhGddNoW4=" />
+                <param name="PublicKey" desc="PublicKey"
+                    value="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmKLBMs2vXosqSR2rojMzioTRVt8oc1ox2uKjyZt6bHUK0u+OpantyFYwF3w1d0U3mCF6rGUnEADzXiX/2/RgLQDEXRD22er31ep3yevtL/r0qcO8GMDzy3RJexdLB6z20voNM551yhKhB18qyFesiPhcPKBQM5dnAOdZLSaLYHzQkQKANy9fYFJlLDo11I3AxefCBuoG+g7ilti5qgpbkm6rK2lLGWOeJMrF+Hu+cxd9H2y3cXWXxkwWM1OZZTgTq3Frlsv1fgkrByJotDpRe8SwkiVuRycR0AHsFfIsuZCFwZML16EGnHqm2jLJXMKIBgkZTzL8Z+201RmOheV4AQIDAQAB" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="500001-113-157" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>29</versionCode>
+                <versionName>2.9.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1726" />
+            <param name="name" value="vivoSingle" />
+            <param name="sdk" value="vivooffline" />
+            <param name="desc" value="vivoSDK" />
+            <param name="suffix" value="com.duiduigames.lhp.vivo" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+
+            <sdk-params>
+                <param name="appid" desc="appid" value="5dd9e91d9e0165bb77db4b7524032064" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="500101-113-157" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>29</versionCode>
+                <versionName>2.9.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1727" />
+            <param name="name" value="meizu2" />
+            <param name="sdk" value="meizu" />
+            <param name="desc" value="MZSDK" />
+            <param name="suffix" value="com.kfgame.bsfb.mz" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="连环炮-欢乐五张" />
+            <sdk-params>
+                <param name="MZ_AppID" desc="AppID" value="3180562" />
+                <param name="MZ_AppKey" desc="AppKey" value="2285b4e654964e54828fa22fab4ef837" />
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>15</versionCode>
+                <versionName>15.4.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+        <channel>
+
+            <param name="id" value="1728" />
+            <param name="name" value="youku" />
+            <param name="sdk" value="youku" />
+            <param name="desc" value="youkuSDK" />
+            <param name="suffix" value="com.stormofwar.youku" />
+            <param name="splash" value="0" />
+            <param name="splash_copy_to_unity" value="0" />
+            <param name="gameName" value="连环炮-欢乐五张" />
+            <sdk-params>
+                <param name="UniqueSerial" desc="BSUniqeSerial" value="000024-053-153" />
+                <param name="ServerName" desc="BSServerName" value="bsfb10" />
+            </sdk-params>
+
+
+            <sdk-version>
+                <versionCode>15</versionCode>
+                <versionName>15.4.0</versionName>
+            </sdk-version>
+
+        </channel>
+
+
+    </channels>
+
+</xml>

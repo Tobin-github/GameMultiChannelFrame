@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/ysf_ic_progress_grey"
+        android:duration="150" />
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="30"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="30">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="60"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="60">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="90"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="90">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="120"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="120">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="150"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="150">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="180"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="180">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="210"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="210">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="240"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="240">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="270">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="300"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="300">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+    <item android:duration="150">
+        <rotate
+            android:fromDegrees="330"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="330">
+            <bitmap android:src="@drawable/ysf_ic_progress_grey" />
+        </rotate>
+    </item>
+</animation-list>

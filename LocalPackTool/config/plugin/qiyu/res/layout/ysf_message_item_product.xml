@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ysf_product_content"
+    android:layout_width="@dimen/ysf_bubble_max_width"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ysf_product_image"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:contentDescription="@null"
+        android:gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ysf_image_placeholder_loading" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ysf_product_title"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="@color/ysf_black_222222"
+            android:textSize="@dimen/ysf_text_size_14" />
+
+        <TextView
+            android:id="@+id/ysf_product_description"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="2"
+            android:textColor="@color/ysf_grey_666666"
+            android:textSize="@dimen/ysf_text_size_12" />
+
+        <TextView
+            android:id="@+id/ysf_product_note"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:textColor="#FF611B"
+            android:textSize="@dimen/ysf_text_size_12" />
+    </LinearLayout>
+</LinearLayout>

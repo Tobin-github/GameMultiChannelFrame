@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- common -->
+    <color name="ysf_grey_pressed">@color/ysf_grey_e0e0e0</color>
+    <color name="ysf_grey_555555">#555555</color>
+    <color name="ysf_grey_666666">#666666</color>
+    <color name="ysf_grey_76838F">#76838F</color>
+    <color name="ysf_grey_9976838F">#9976838F</color>
+    <color name="ysf_grey_999999">#999999</color>
+    <color name="ysf_grey_b3b3b3">#b3b3b3</color>
+    <color name="ysf_grey_c5c4c4">#c5c4c4</color>
+    <color name="ysf_grey_cccccc">#cccccc</color>
+    <color name="ysf_grey_d9d9d9">#d9d9d9</color>
+    <color name="ysf_grey_dbdbdb">#dbdbdb</color>
+    <color name="ysf_grey_e4e4e4">#e4e4e4</color>
+    <color name="ysf_grey_e6e6e6">#e6e6e6</color>
+    <color name="ysf_grey_eaeaea">#eaeaea</color>
+    <color name="ysf_grey_e0e0e0">#E0E0E0</color>
+    <color name="ysf_grey_f1f1f1">#F1F1F1</color>
+    <color name="ysf_grey_f3f3f3">#F3F3F3</color>
+    <color name="ysf_grey_f8f8f8">#FAFAFA</color>
+    <color name="ysf_red_9d3b39">#9d3b39</color>
+    <color name="ysf_red_e64340">#e64340</color>
+    <color name="ysf_blue_5092e1">#5092e1</color>
+    <color name="ysf_blue_5e94e2">#5e94e2</color>
+    <color name="ysf_blue_61a7ea">#61a7ea</color>
+    <color name="ysf_blue_bbd6f5">#bbd6f5</color>
+    <color name="ysf_white">@android:color/white</color>
+    <color name="ysf_white_99FFFFFF">#99FFFFFF</color>
+    <color name="ysf_black">@android:color/black</color>
+    <color name="ysf_black_b3000000">#b3000000</color>
+    <color name="ysf_black_222222">#222222</color>
+    <color name="ysf_black_2b2b2b">#2b2b2b</color>
+    <color name="ysf_black_333333">#333333</color>
+    <color name="ysf_black_80000000">#80000000</color>
+    <color name="ysf_black_30000000">#30000000</color>
+
+    <!-- title bar -->
+    <color name="ysf_title_bar_title_color">@color/ysf_black</color>
+
+    <!-- session -->
+    <color name="ysf_window_background">@color/ysf_white</color>
+    <color name="ysf_tips_background_fff9e2">#fff9e2</color>
+    <color name="ysf_tips_text_c08722">#c08722</color>
+    <color name="ysf_input_panel_text_757572">#757572</color>
+    <color name="ysf_text_link_color_blue">#4E97D9</color>
+    <color name="ysf_edit_text_border_default">#dadfe0</color>
+    <color name="ysf_notification_text">#a3afb7</color>
+    <color name="ysf_notification_bg">#eeeeee</color>
+    <color name="ysf_recording_background_color">#80000000</color>
+    <color name="ysf_picker_unselected_color">#60000000</color>
+    <color name="ysf_play_audio_mode_background">#B2000000</color>
+
+    <!-- 可以自定义的按钮颜色 -->
+    <!-- 普通状态的颜色，影响各按钮 -->
+    <color name="ysf_theme_color_normal">#62A8EA</color>
+    <!-- 按下状态的颜色，影响各按钮 -->
+    <color name="ysf_theme_color_pressed">#4E97D9</color>
+    <!-- disable状态下的颜色，影响按钮，EditText等控件 -->
+    <color name="ysf_theme_color_disabled">#BCD8F1</color>
+</resources>

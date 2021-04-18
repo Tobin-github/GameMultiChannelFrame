@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/kfgame_grey_round_corner_bg"
+        android:state_enabled="false"/>
+    <item android:drawable="@drawable/kfgame_orange_round_corner_bg_p"
+        android:state_pressed="true"/>
+    <item android:drawable="@drawable/kfgame_orange_round_corner_bg"
+        android:state_pressed="false"/>
+</selector>

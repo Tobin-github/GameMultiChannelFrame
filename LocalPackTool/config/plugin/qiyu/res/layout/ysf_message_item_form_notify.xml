@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ysf_bubble_max_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ysf_message_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ysf_message_left_bg_product_selector"
+        android:gravity="center_vertical"
+        android:textColor="@color/ysf_black_2b2b2b"
+        android:textSize="@dimen/ysf_text_size_16" />
+
+    <TextView
+        android:id="@+id/ysf_message_form_expand"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/ysf_button_small_height"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ysf_btn_white_round_bg"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="填写表单"
+        android:textColor="@color/ysf_blue_5092e1"
+        android:textSize="14dp"
+        android:visibility="gone" />
+</LinearLayout>

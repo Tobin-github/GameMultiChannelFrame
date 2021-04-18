@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ysf_ptr_footer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ysf_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/ysf_ptr_footer_pull_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ysf_ptr_footer_state_hint"
+            android:contentDescription="@null"
+            android:src="@drawable/ysf_ptr_arrow_up" />
+
+        <ProgressBar
+            android:id="@+id/ysf_ptr_footer_loading_icon"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ysf_ptr_footer_state_hint"
+            android:indeterminateDrawable="@drawable/ysf_progress_bar_grey"
+            android:visibility="invisible" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/ysf_ptr_footer_state_icon"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toLeftOf="@+id/ysf_ptr_footer_state_hint"-->
+        <!--android:contentDescription="@null"-->
+        <!--android:visibility="invisible" />-->
+
+        <TextView
+            android:id="@+id/ysf_ptr_footer_state_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/ysf_ptr_pull_to_load"
+            android:textColor="@color/ysf_grey_999999"
+            android:textSize="@dimen/ysf_text_size_14" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/picker_image_preview_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <com.qiyukf.unicorn.widget.ViewPagerFixed
+        android:id="@+id/picker_image_preview_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/picker_image_preview_operator_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="#e6e6e6"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/picker_image_preview_orignal_image"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@null" />
+
+        <TextView
+            android:id="@+id/picker_image_preview_orignal_image_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:text="@string/ysf_picker_image_preview_original"
+            android:textColor="#999999"
+            android:textSize="@dimen/ysf_text_size_14" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <com.qiyukf.unicorn.widget.StylableTextView
+            android:id="@+id/picker_image_preview_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dp"
+            android:enabled="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/ysf_picker_image_send"
+            android:textSize="@dimen/ysf_text_size_14" />
+    </LinearLayout>
+</LinearLayout>

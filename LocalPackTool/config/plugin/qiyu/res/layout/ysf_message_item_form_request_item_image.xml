@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ysf_message_form_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ysf_grey_666666"
+        android:textSize="@dimen/ysf_text_size_16" />
+
+    <LinearLayout
+        android:id="@+id/ysf_message_form_item_image_layout"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ysf_btn_white_blue_bg_selector"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ysf_message_file_icon_jpg" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <com.qiyukf.unicorn.widget.FileNameTextView
+                android:id="@+id/ysf_message_form_item_image_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:ysf_fntMaxLines="1"
+                app:ysf_fntTextColor="@color/ysf_black_222222"
+                app:ysf_fntTextSize="@dimen/ysf_text_size_15" />
+
+            <TextView
+                android:id="@+id/ysf_message_form_item_image_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textColor="@color/ysf_grey_999999"
+                android:textSize="@dimen/ysf_text_size_13" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

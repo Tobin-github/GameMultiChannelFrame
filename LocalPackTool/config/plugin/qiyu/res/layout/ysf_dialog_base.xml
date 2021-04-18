@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ysf_dialog_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ysf_tv_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="标题"
+            android:textColor="@color/ysf_black"
+            android:textSize="@dimen/ysf_text_size_16"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/ysf_tv_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="内容"
+            android:textColor="@color/ysf_black"
+            android:textSize="@dimen/ysf_text_size_16"
+            android:visibility="gone" />
+
+        <FrameLayout
+            android:id="@+id/ysf_dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

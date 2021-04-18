@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/ysf_bubble_max_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ysf_tv_order_detail_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/ysf_black_222222"
+        android:textSize="@dimen/ysf_text_size_16" />
+
+    <include layout="@layout/ysf_include_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/ysf_ic_bot_logistic" />
+
+            <TextView
+                android:id="@+id/ysf_tv_order_detail_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/ysf_black_222222"
+                android:textSize="@dimen/ysf_text_size_14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/ysf_ic_bot_address" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ysf_tv_order_detail_person"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ysf_black_222222"
+                    android:textSize="@dimen/ysf_text_size_14" />
+
+                <TextView
+                    android:id="@+id/ysf_tv_order_detail_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:textColor="@color/ysf_grey_666666"
+                    android:textSize="@dimen/ysf_text_size_14" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ysf_ll_order_detail_order_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/ysf_ic_bot_order" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ysf_tv_order_detail_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/ysf_black_222222"
+                    android:textSize="@dimen/ysf_text_size_14" />
+
+                <LinearLayout
+                    android:id="@+id/ysf_ll_order_detail_order_item_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

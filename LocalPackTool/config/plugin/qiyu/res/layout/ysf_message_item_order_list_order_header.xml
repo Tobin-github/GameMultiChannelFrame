@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ysf_order_list_order_header_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ysf_order_list_header_divider"
+        layout="@layout/ysf_include_divider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/ysf_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ysf_ic_bot_shop" />
+
+        <TextView
+            android:id="@+id/ysf_tv_order_shop_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/ysf_text_size_13" />
+
+        <TextView
+            android:id="@+id/ysf_tv_order_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF611B"
+            android:textSize="@dimen/ysf_text_size_14" />
+    </LinearLayout>
+
+    <include layout="@layout/ysf_include_divider" />
+</LinearLayout>

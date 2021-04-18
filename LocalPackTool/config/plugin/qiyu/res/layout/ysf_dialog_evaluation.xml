@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qiyukf.unicorn.widget.ResizeScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ysf_evaluation_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ysf_white"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ysf_grey_f1f1f1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center_horizontal"
+                android:text="@string/ysf_evaluation_tips"
+                android:textColor="@color/ysf_black_222222"
+                android:textSize="@dimen/ysf_text_size_16" />
+
+            <ImageView
+                android:id="@+id/ysf_evaluation_dialog_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:contentDescription="@null"
+                android:padding="12dp"
+                android:src="@drawable/ysf_evaluation_dialog_close" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/ysf_evaluation_dialog_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal"
+            android:paddingTop="15dp" />
+
+        <EditText
+            android:id="@+id/ysf_evaluation_dialog_et_remark"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/ysf_evaluation_remark_border"
+            android:gravity="top"
+            android:hint="@string/ysf_evaluation_dialog_et_hint_remark"
+            android:imeOptions="flagNoExtractUi"
+            android:maxLength="100"
+            android:padding="5dp"
+            android:textColor="@color/ysf_black_80000000"
+            android:textColorHint="@color/ysf_grey_cccccc"
+            android:textSize="@dimen/ysf_text_size_13" />
+
+        <Button
+            android:id="@+id/ysf_btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ysf_evaluation_dialog_btn_submit_bg_selector"
+            android:enabled="false"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:text="@string/ysf_evaluation_btn_submit"
+            android:textColor="@color/ysf_btn_common_text_color_selector"
+            android:textSize="@dimen/ysf_text_size_16" />
+    </LinearLayout>
+</com.qiyukf.unicorn.widget.ResizeScrollView>

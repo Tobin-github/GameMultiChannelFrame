@@ -1,0 +1,242 @@
+<xml>
+
+<games>
+	<game>
+		<param name="appName" value="wancmsdemo" />
+		<param name="appID" value="32" />
+		<param name="appKey" value="0e65ccb6df374dce0cfec1c625113d87" />
+		<param name="appDesc" value="宝石疯狂体育中超中心" />
+		<param name="orientation" value="portrait" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|x86"/>
+		<!-- <param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" /> -->
+		<param name="u8server_url" value="http://www.wgb.cn:9080" desc="U8Server正式服根地址url" />
+		<param name="gameName" value="bsplatform" />
+			
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+	</game>	
+	
+	<game>
+	    <param name="appName" value="xdns" />
+	    <param name="appID" value="5" />
+	    <param name="appKey" value="48a049ca18bc9c2401d5c0ab0b5851ea" />
+	    <param name="appDesc" value="xdns" />
+	    <param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+	    <param name="cpuSupport" value="armeabi|armeabi-v7a"/>
+	    <!-- <param name="u8server_url" value="http://www.wgb.cn:9080" desc="U8Server根地址url" /> -->
+		<!-- <param name="u8server_url" value="http://120.76.98.213:9080/" desc="U8Server根地址url 1.23" /> -->	    
+		<param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" />
+	    <param name="gameName" value="xdns" />
+
+	    <param name="minSdkVersion" value="9" />
+	    <param name="targetSdkVersion" value="22" />
+
+	    <param name="versionCode" value="3" desc="游戏包的版本号,对应AndroidManifest.xml中的versionCode"/>
+	    <param name="versionName" value="1.0.3" desc="游戏包中的版本名称,对应AndroidManifest.xml中的versionName"/>  
+
+	    <param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+	    <log>
+	      <param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+	      <param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+	      <param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+	      <param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+	      <param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+	      <param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+	    </log>
+  	</game>
+
+
+  	<game>
+	    <param name="appName" value="xdzb" />
+	    <param name="appID" value="10" />
+	    <param name="appKey" value="9e53746c87068ae88625624194e1b031" />
+	    <param name="appDesc" value="xdzb" />
+	    <param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+	    <param name="cpuSupport" value="armeabi|armeabi-v7a"/>
+	    <param name="u8server_url" value="http://www.wgb.cn:9080" desc="U8Server根地址url" />
+		<!-- <param name="u8server_url" value="http://120.76.98.213:9080/" desc="U8Server根地址url 1.23" /> -->	    
+		<!-- <param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" /> -->
+	    <param name="gameName" value="xdzb" />
+
+	    <param name="minSdkVersion" value="9" />
+	    <param name="targetSdkVersion" value="22" />
+
+	    <param name="versionCode" value="3" desc="游戏包的版本号,对应AndroidManifest.xml中的versionCode"/>
+	    <param name="versionName" value="0.0.3" desc="游戏包中的版本名称,对应AndroidManifest.xml中的versionName"/>
+
+	    <param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+	    <log>
+	      <param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+	      <param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+	      <param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+	      <param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+	      <param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+	      <param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+	    </log>
+  	</game>  
+	
+	
+	<game>
+		<param name="appName" value="dmds" />
+		<param name="appID" value="4" />
+		<param name="appKey" value="321cb7ba6d4000b60e92e8ce514ffd32" />
+		<param name="appDesc" value="dmds" />
+		<param name="orientation" value="portrait" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|arm64-v8a|x86"/>
+		<param name="u8server_url" value="http://www.wgb.cn:9080" desc="U8Server根地址url" />
+		<param name="gameName" value="dmds" />
+			
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+	</game>
+
+	<game>
+		<param name="appName" value="bsplatform" />
+		<param name="appID" value="33" />
+		<param name="appKey" value="0e65ccb6df374dce0cfec1c625113d87" />
+		<param name="appDesc" value="wancmsdemo" />
+		<param name="orientation" value="portrait" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|x86"/>
+		<param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" />
+		<!-- <param name="u8server_url" value="http://www.wgb.cn:9080" desc="U8Server根地址url" /> -->
+		<param name="gameName" value="bsplatform" />
+			
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+	</game>	
+	
+	<game>
+		<param name="appName" value="u8demo" />
+		<param name="appID" value="1" />
+		<param name="appKey" value="536b1116e182e635b4e4995bf1e974b1" />
+		<param name="appDesc" value="u8demo" />
+		<param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|arm64-v8a|x86"/>
+		<param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" />
+		<param name="gameName" value="u8demo" />
+			
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+	</game>	
+
+	<game>
+		<param name="appName" value="BSFB" />
+		<param name="appID" value="35" />
+		<param name="appKey" value="0e65ccb6df374dce0cfec1c625113d87" />
+		<param name="appDesc" value="BSFB" />
+		<param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|arm64-v8a|x86"/>
+		<param name="cpuSupport" value="armeabi|armeabi-v7a"/>
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|x86|arm64-v8a"/>
+		<param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" />
+		<param name="gameName" value="连环炮2" />
+			
+		<param name="outputApkName" value="{channelName}-{UniqueSerial}-{ServerName}-{time}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+	</game>	
+
+	<game>
+		<param name="appName" value="bsfb_att" />
+		<param name="appID" value="3" />
+		<param name="appKey" value="0e65ccb6df374dce0cfec1c625113d87" />
+		<param name="appDesc" value="BSFB" />
+		<param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|arm64-v8a|x86"/>
+		<param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" />
+		<param name="gameName" value="连环炮-欢乐五张" />
+ 		<param name="versionCode" value="70" />
+ 		<param name="versionName" value="1.7.0" />		
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+	</game>	
+
+	<game>
+		<param name="appName" value="bsfb_att_nocs" />
+		<param name="appID" value="36" />
+		<param name="appKey" value="0e65ccb6df374dce0cfec1c625113d87" />
+		<param name="appDesc" value="BSFB" />
+		<param name="orientation" value="landscape" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|arm64-v8a|x86"/>
+		<param name="u8server_url" value="http://www.wgb.cn:9080" desc="U8Server根地址url" />
+		<param name="gameName" value="连环炮-欢乐五张" />
+ 		<param name="versionCode" value="70" />
+ 		<param name="versionName" value="1.7.0" />		
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+
+		<log>
+			<param name="ulog.enable" value="true" desc="是否进行日志打印"/>
+			<param name="ulog.level" value="DEBUG" desc="日志级别(DEBUG|INFO|WARNING|ERROR)"/>
+			<param name="ulog.local" value="true" desc="是否在logcat中打印"/>
+			<param name="ulog.remote" value="true" desc="是否在网页中远程打印，这里设置为true，需要启动scripts/uconsole.py"/>
+			<param name="ulog.remote_interval" value="1000" desc="远程打印时间间隔，单位毫秒"/>
+			<param name="ulog.remote_url" value="http://192.168.2.168:8080" desc="远程打印地址，uconsole.py启动监听的地址"/>
+		</log>
+	</game>	
+
+	<game>
+		<param name="appName" value="nst" />
+		<param name="appID" value="9" />
+		<param name="appKey" value="7d6112d335aa2e0f4b3a1e4a96229966" />
+		<param name="appDesc" value="NST" />
+		<param name="orientation" value="portrait" desc="游戏是横屏还是竖屏(landscape|portrait),不配置默认是横屏" />
+		<param name="cpuSupport" value="armeabi|armeabi-v7a|arm64-v8a|x86"/>
+		<param name="u8server_url" value="http://120.25.243.133:8080" desc="U8Server根地址url" />
+		<param name="gameName" value="逆转俄罗斯" />
+ 		<param name="versionCode" value="1" />
+ 		<param name="versionName" value="1.0.0" />		
+		<param name="outputApkName" value="{channelName}.apk" desc="最终apk包名格式：{bundleID}:包名,{versionName}:版本名称,{versionCode}:版本号,{time}:时间戳(yyyyMMddmmss),{channelID}:渠道号,{channelName}:渠道名,{appName}:游戏名,{appID}:appID"/>
+	</game>
+
+</games>
+
+</xml>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <!--对话框样式-->
+    <drawable name="kfgame_sdk_dialog_bg">#00000000</drawable>
+    <style name="kfgame_account_dialog_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/kfgame_shape_corner_round</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+	<!--对话框样式 全屏模式-->
+	<style name="kfgame_dialog_theme_full" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/kfgame_shape_corner_round</item>
+    </style>
+
+
+
+</resources>

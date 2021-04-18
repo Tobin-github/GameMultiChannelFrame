@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<declare-styleable name="com.chance.ads">
+    	<attr name="placementID" format="string"/>
+    	<attr name="loadAdOnCreate" format="boolean" />
+ 	</declare-styleable>
+</resources>

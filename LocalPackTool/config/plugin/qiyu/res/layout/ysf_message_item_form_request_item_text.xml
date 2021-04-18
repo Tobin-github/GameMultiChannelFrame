@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ysf_message_form_item_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ysf_grey_666666"
+        android:textSize="@dimen/ysf_text_size_16" />
+
+    <TextView
+        android:id="@+id/ysf_message_form_item_text_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/ysf_black_2b2b2b"
+        android:textSize="@dimen/ysf_text_size_16" />
+</LinearLayout>

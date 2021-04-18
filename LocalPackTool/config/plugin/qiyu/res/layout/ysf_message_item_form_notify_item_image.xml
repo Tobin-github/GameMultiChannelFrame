@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp">
+
+    <include layout="@layout/ysf_message_item_form_notify_item_title" />
+
+    <FrameLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/ysf_message_form_item_image_select"
+            android:layout_width="110dp"
+            android:layout_height="@dimen/ysf_button_small_height"
+            android:background="@drawable/ysf_btn_white_blue_bg_selector"
+            android:text="上传图片"
+            android:textColor="@color/ysf_blue_5092e1"
+            android:textSize="@dimen/ysf_text_size_14" />
+
+        <FrameLayout
+            android:id="@+id/ysf_message_form_item_image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ysf_btn_white_blue_bg_selector"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/ysf_message_file_icon_jpg" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <com.qiyukf.unicorn.widget.FileNameTextView
+                        android:id="@+id/ysf_message_form_item_image_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:ysf_fntMaxLines="1"
+                        app:ysf_fntText="图标图标.png"
+                        app:ysf_fntTextColor="@color/ysf_black_222222"
+                        app:ysf_fntTextSize="@dimen/ysf_text_size_15" />
+
+                    <TextView
+                        android:id="@+id/ysf_message_form_item_image_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:text="17KB"
+                        android:textColor="@color/ysf_grey_999999"
+                        android:textSize="@dimen/ysf_text_size_13" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ysf_message_form_item_image_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:contentDescription="@null"
+                android:src="@drawable/ysf_ic_delete" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/ysf_message_form_item_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="此信息不得为空"
+        android:textColor="@color/ysf_red_e64340"
+        android:textSize="@dimen/ysf_text_size_14"
+        android:visibility="gone" />
+</LinearLayout>

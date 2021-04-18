@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="com_lenovo_lsf_Translucent_NoTitle_Dialog" parent="android:style/Theme.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:background">#00000000</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:colorBackgroundCacheHint">@null</item>
+		<item name="android:windowIsTranslucent">true</item>
+		
+	</style>
+	  <style name="MaxTextDeepStyle">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="com_lenovo_lsf_pay_network_unconnent">网络连接失败，请检查网络！</string>
+  	<string name="com_lenovo_lsf_quit_text">退出游戏</string>
+  	<string name="com_lenovo_lsf_enter_forum_text">点我试试</string>
+  	<string name="com_lenovo_lsf_watch_text">查看详情</string>
+  	<string name="com_lenovo_lsf_close_text">关闭</string>
+	<string name="com_lenovo_lsf_activity_title_name">公告</string>
+	<string name="com_lenovo_lsf_quit_title_name">确认退出？</string>
+	
+	
+	<string name="com_lenovo_pop_active_get_success">成功复制激活码，请直接粘贴！</string>
+	<string name="com_lenovo_pop_active_get_faile">领取激活码失败</string>
+	<string name="com_lenovo_pop_vb_get_faile">领取V币码失败</string>
+	<string name="com_lenovo_pop_vb_get_success">成功兑换%sV币，请在悬浮窗-“V币”中查看！</string>
+	<string name="com_lenovo_pop_vb_get_repeat">领取失败，您已经领取过币码</string>
+	<string name="com_lenovo_pop_vb_get_vb">领取V币</string>
+	<string name="com_lenovo_pop_vb_get_active">复制激活码</string>
+	
+</resources>

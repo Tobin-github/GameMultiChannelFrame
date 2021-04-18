@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/ysf_bubble_margin_top">
+
+    <FrameLayout
+        android:id="@+id/message_item_audio_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ysf_message_left_bg_selector">
+
+        <ImageView
+            android:id="@+id/message_item_audio_playing_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:background="@drawable/ysf_audio_animation_list_left"
+            android:contentDescription="@string/ysf_empty" />
+
+        <TextView
+            android:id="@+id/message_item_audio_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:paddingLeft="2dip"
+            android:textColor="@color/ysf_black_333333"
+            android:textSize="@dimen/ysf_text_size_12" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/message_item_audio_unread_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/ysf_bubble_layout_margin_side"
+        android:layout_marginRight="@dimen/ysf_bubble_layout_margin_side"
+        android:background="@drawable/ysf_new_message_notify"
+        android:contentDescription="@string/ysf_empty"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:longClickable="true" />
+
+    <TextView
+        android:id="@+id/nim_message_item_text_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone|email"
+        android:gravity="center_vertical|left"
+        android:includeFontPadding="false"
+        android:lineSpacingExtra="3dip"
+        android:maxWidth="@dimen/ysf_bubble_max_width"
+        android:textColor="@color/ysf_black_b3000000"
+        android:textSize="@dimen/ysf_text_size_16"
+        android:visibility="gone" />
+</LinearLayout>

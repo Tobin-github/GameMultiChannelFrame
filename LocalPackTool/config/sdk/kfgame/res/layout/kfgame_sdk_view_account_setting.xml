@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kfgame.sdk.view.SdkSettingView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp" >
+
+    <com.kfgame.sdk.view.BaseSdkBgLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp" >
+
+        <LinearLayout
+            android:id="@+id/other_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/kfgame_selector_white_round_border"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="使用其他账号登录"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                android:padding="6dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/kfgame_icon_arrow_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/update_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/kfgame_selector_white_round_border"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:visibility="gone" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="升级账号"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                android:padding="6dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/kfgame_icon_arrow_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/kfgame_selector_white_round_border"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="修改密码"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                android:padding="6dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/kfgame_icon_arrow_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/modify_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/kfgame_selector_white_round_border"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="修改密码"
+                android:textColor="@android:color/black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                android:padding="6dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/kfgame_icon_arrow_right" />
+        </LinearLayout>
+    </com.kfgame.sdk.view.BaseSdkBgLinearLayout>
+
+</com.kfgame.sdk.view.SdkSettingView>

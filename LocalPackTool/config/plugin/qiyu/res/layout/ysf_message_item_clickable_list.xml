@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ysf_clickable_list_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ysf_clickable_list_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ysf_clickable_list_header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/ysf_bubble_content_max_width"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/ysf_black_2b2b2b"
+            android:textSize="@dimen/ysf_text_size_16" />
+
+        <include
+            android:id="@+id/ysf_clickable_list_header_divider"
+            layout="@layout/ysf_include_divider"
+            android:layout_width="@dimen/ysf_bubble_content_max_width"
+            android:layout_height="@dimen/ysf_divider_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ysf_clickable_list_container"
+        android:layout_width="@dimen/ysf_bubble_content_max_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/ysf_clickable_list_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/ysf_clickable_list_footer_divider"
+            layout="@layout/ysf_include_divider"
+            android:layout_width="@dimen/ysf_bubble_content_max_width"
+            android:layout_height="@dimen/ysf_divider_height" />
+
+        <TextView
+            android:id="@+id/ysf_clickable_list_footer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="@dimen/ysf_bubble_content_max_width"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/ysf_black_2b2b2b"
+            android:textSize="@dimen/ysf_text_size_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ysf_clickable_list_evaluate_layout"
+        android:layout_width="@dimen/ysf_bubble_content_max_width"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <include layout="@layout/ysf_include_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/ysf_clickable_list_evaluate_useful"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ysf_ic_robot_useful_selector"
+                    android:drawablePadding="10dp"
+                    android:text="@string/ysf_robot_answer_useful"
+                    android:textColor="@color/ysf_robot_evaluate_text_selector"
+                    android:textSize="@dimen/ysf_text_size_16" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/ysf_clickable_list_evaluate_useless"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ysf_ic_robot_useless_selector"
+                    android:drawablePadding="10dp"
+                    android:text="@string/ysf_robot_answer_useless"
+                    android:textColor="@color/ysf_robot_evaluate_text_selector"
+                    android:textSize="@dimen/ysf_text_size_16" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

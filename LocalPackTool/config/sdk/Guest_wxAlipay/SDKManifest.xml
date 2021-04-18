@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <permissionConfig>
+
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    </permissionConfig>
+
+    <applicationConfig keyword=".wxapi.WXEntryActivity">
+
+        <!-- TODO GAME SDK 微信接入配置 START -->
+        <activity android:name=".wxapi.WXEntryActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:excludeFromRecents="true" android:exported="true" android:label="WXEntryActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <!-- TODO GAME 这里为游戏微信登录的配置，游戏需要修改为自己的微信appid -->
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".wxapi.WXPayEntryActivity"
+            android:theme="@android:style/Theme.Translucent"
+            android:exported="true"
+            android:launchMode="singleTop" />
+
+        <!-- TODO GAME SDK 微信接入配置 END -->
+
+        <!-- alipay sdk begin -->
+
+        <activity android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false" android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+        <activity android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation" android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+
+        <!-- alipay sdk end -->
+
+    </applicationConfig>
+
+</manifest>
