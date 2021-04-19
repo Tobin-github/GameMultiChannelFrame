@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.u8.sdk">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name="com.u8.sdk.U8Application"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+
+
+
+
+    </application>
+
+</manifest>

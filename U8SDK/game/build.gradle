@@ -1,0 +1,141 @@
+apply plugin: 'com.android.application'
+
+// 打包时间
+static def buildTime() {
+    return new Date().format("yyyy-MM-dd-HH-mm-ss", TimeZone.getTimeZone("GMT+08:00"))
+}
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    // 指定签名文件
+    signingConfigs {
+        released {
+            keyAlias 'test'
+            keyPassword 'test123'
+            storeFile file('../test.jks')
+            storePassword 'test123'
+        }
+    }
+
+    defaultConfig {
+        applicationId "top.tobin.game"
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 100
+        versionName "1.0.0"
+
+        // dex突破65535的限制
+        multiDexEnabled true
+
+        // 设置AndroidManifest.xml 里面icon 的value默认值
+        manifestPlaceholders = [app_icon : "@mipmap/ic_launcher"]
+        manifestPlaceholders = [app_name: "GameDemo"]
+
+        resValue "string", "app_name", "Game_Default"
+    }
+
+    //执行lint检查，有任何的错误或者警告提示，都会终止构建，我们可以将其关掉。
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        // 防止在发布的时候出现因MissingTranslation导致Build Failed!
+        disable 'MissingTranslation'
+        disable 'GoogleAppIndexingWarning'
+    }
+
+    dexOptions {
+        javaMaxHeapSize "8g"
+        jumboMode = true
+        preDexLibraries = false
+        threadCount ="8"
+    }
+
+    allprojects {
+        // 加快 Android Studio 编译
+        tasks.withType(JavaCompile) {
+            // 使在一个单独的守护进程编译
+            options.fork = true
+            // 增量编译
+            options.incremental = true
+        }
+
+        repositories {
+            jcenter()
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.getByName("released")
+        }
+
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.getByName("released")
+        }
+
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def file = output.outputFileName
+            def versionName = variant.versionName
+            def buildType = variant.buildType.name
+
+            //下面的路径：${buildDir}/intermediates/manifests/full/${buildType}/AndroidManifest.xml
+            def xmlFile = project.file("${project.getProjectDir()}/src/main/AndroidManifest.xml")
+            def rootManifest = new XmlSlurper().parse(xmlFile)
+            def application = rootManifest.getProperty("application")
+            def productName =  application['@android:label']
+
+            if(file != null && file.endsWith(".apk")) {
+                if (variant.buildType.name == 'debug') {
+                    output.outputFileName = "${productName}-v${versionName}-${buildType}.apk"
+                }else{
+                    output.outputFileName = "${productName}-v${versionName}-${buildTime()}-${buildType}.apk"
+                }
+            }
+        }
+    }
+
+    flavorDimensions "default"
+    productFlavors {
+
+        dev {
+            dimension "default"
+            resValue "string", "app_name", "GameMultichannel"
+            applicationId 'top.tobin.game'
+            manifestPlaceholders = [ENVIRONMENT: "dev", app_icon : "@mipmap/ic_launcher"]
+        }
+
+        ysdk {
+            dimension "default"
+            applicationId 'top.tobin.game.tencent'
+            versionCode 105
+            versionName "1.0.5"
+            resValue "string", "app_name", "Game_YSDK"
+        }
+
+    }
+}
+
+repositories {
+    flatDir {
+        dirs '../YSDK/libs'
+        dirs 'libs'
+    }
+}
+
+dependencies {
+//    api fileTree(include: ['*.jar'], dir: 'libs')
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+
+    api project(':sdkproxy')
+    ysdkApi project(':YSDK')
+
+}
