@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'war'
+apply plugin: 'jetty'
+
+httpPort = 8080
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	// compile
+	// runtime
+	// testCompile
+	// testRuntime
+    compile fileTree(dir: 'lib', include:'*.jar')
+}
+
+test {
+    exclude '**/Abstract*' 
+}

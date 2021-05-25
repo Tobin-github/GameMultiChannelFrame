@@ -1,0 +1,1073 @@
+﻿html, head, body, img, li, ul, div, span, dt, dl, table, tr, td.thead, tbody, input, textarea, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari */
+    font-family: Arial, Helvetica, sans-serif,Microsoft YaHei;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+    .container input {
+        padding-left: 3px;
+        border-radius: 5px;
+    }
+
+.pd20 {
+    padding-top: 20px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.hide {
+    display: none;
+}
+
+
+.containernew .header {
+    background-color: #dacec5;
+    font-size: 22px;
+    font-weight: bold;
+    height: 41px;
+    line-height: 41px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+/*recharge*/
+.container .header {
+    width: 100%; /*background-image:url(/Images/Recharge/recharge_top.png);*/
+    height: 41px;
+    position: relative;
+    background-color: #dacec5;
+    text-align: center;
+    line-height: 41px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+    .container .header img {
+        width: 100%;
+        max-width: 125px; /*height:32px;*/
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 25%; /*margin-top:-16px;*/
+    }
+
+    .container .header a {
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        height: 100%;
+        width: 2.34375%;
+        background-image: url(/Images/Recharge/back.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+        max-width: 15px;
+    }
+
+    .container .header .title {
+        width: 100%;
+        height: 100%;
+        max-width: 125px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        background-image: url(/Images/Recharge/qitachongzhi.png);
+        background-repeat: no-repeat;
+        background-size: 75%;
+        background-position: center center;
+    }
+
+.container .guide {
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 18.5px;
+    color: #cd0505;
+    font-weight: bold;
+}
+
+.container .btn_container {
+    width: 100%;
+    text-align: center;
+    margin-top: 28px;
+}
+
+    .container .btn_container > a {
+        width: 26.09375%;
+        height: 45px;
+        display: inline-block;
+        text-align: center;
+        font-size: 2em;
+        border-radius: 6px;
+        line-height: 45px;
+    }
+
+    .container .btn_container > .select {
+        background-color: #fa7c00;
+        border: 2px solid #ee7306;
+        color: white;
+    }
+
+    .container .btn_container > .btn {
+        border: 2px solid #b2b2b2;
+        color: black;
+        background: url(/Images/Recharge/btn_bg.png) repeat-x 0 0;
+    }
+
+.container > form .forms {
+    width: 100%;
+    display: block;
+}
+
+    .container > form .forms div {
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .container > form .forms > div > span {
+        font-size: 1.5em;
+    }
+
+    .container > form .forms div input {
+        font-size: 1.5em;
+        padding: 5px;
+        width: 50.3125%;
+    }
+
+    .container > form .forms > div > .err_img {
+        max-width: 18px;
+        width: 2.8125%;
+        visibility: hidden;
+    }
+
+    .container > form .forms > div > .err_msg {
+        padding-left: 29.5%;
+        text-align: left;
+        color: #c92c16;
+        font-size: 0.8em;
+        margin-top: 0;
+    }
+
+.container > form .recharge_title {
+    width: 100%;
+    background-color: #dacec5;
+    height: 41px;
+    margin-top: 10px;
+    position: relative;
+    line-height: 41px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+    .container > form .recharge_title > img {
+        height: 32px;
+        max-width: 125px;
+        width: 19.53125%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
+        margin-top: -16px;
+    }
+
+    .container > form .recharge_title > .title {
+        width: 100%;
+        height: 100%;
+        background-image: url(/Images/Recharge/chongzhidianshu.png);
+        background-repeat: no-repeat;
+        background-size: 19.53125%;
+        background-position: center center;
+    }
+
+.container > form > .price {
+    width: 100%;
+    text-align: center;
+}
+
+    .container > form > .price > a {
+        display: inline-block;
+        width: 25.78125%;
+        height: 50px;
+        margin-left: 12px;
+        margin-top: 15px;
+        line-height: 50px;
+        font-size: 1.5em;
+        border-radius: 5px;
+        background: url(/Images/Recharge/large_btn_bg.png) repeat-x;
+        border: 2px solid #b2b2b2;
+        color: black;
+    }
+
+    .container > form > .price > .select {
+        background-color: #fa7c00;
+        border: 2px solid #ee7306;
+        color: white;
+        background-image: none;
+    }
+
+.container > form > .price_show {
+    margin-left: 12.34375%;
+    margin-top: 65px;
+    font-size: 1.5em;
+}
+
+    .container > form > .price_show > span {
+        color: #d86100;
+        font-size: 1.7em;
+    }
+
+.container > form > .next_btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 79.6875%;
+    margin-top: 62px;
+    display: block;
+    background-color: #fa7c00;
+    border: 2px solid #ee7306;
+    color: white;
+    height: 50px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.container > form > .recharge_tip {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: #6d6d6d;
+}
+/*home page*/
+.container > img {
+    width: 100%;
+    max-width: 640px;
+    display: block;
+}
+
+.container > .download_btns {
+    text-align: center;
+    height: 96px;
+    background-color: #dacec5;
+    margin-top: 4px;
+    display: table;
+    width: 100%;
+}
+
+    .container > .download_btns > div {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+        .container > .download_btns > div > img {
+            width: 37.185%;
+            max-width: 238px;
+            margin-top: 4px;
+            cursor: pointer;
+        }
+
+            .container > .download_btns > div > img:last-child {
+                margin-left: 35px;
+            }
+
+.container > .recharge_item_title {
+    background-color: #9ec0d0;
+    width: 100%;
+    height: 49px;
+    margin-top: 7px;
+}
+
+.container > .recharge > div {
+    background: url(/Images/Recharge/yxcz.png) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 19.6875%;
+    margin: 0 auto;
+}
+
+.container > .recharge_bs > div {
+    background: url(/Images/Recharge/yxcz_bs.png) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 34.6875%;
+    margin: 0 auto;
+}
+
+
+.container > .recharge_en > div {
+    background: url(/Images/Recharge/yxcz_en.png) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 19.6875%;
+    margin: 0 auto;
+}
+
+.container > .recharge_item {
+    width: 100%;
+    height: 71px;
+    line-height: 71px;
+    border-bottom: 2px solid #b8b8b8;
+}
+
+    .container > .recharge_item > a {
+        margin-left: 18.75%;
+        text-decoration: none;
+        color: blue;
+    }
+
+    .container > .recharge_item > span {
+        margin-left: 18.75%;
+        margin-top: 50px;
+    }
+
+    .container > .recharge_item > img {
+        float: right;
+        width: 20%;
+        margin-right: 1%;
+        cursor: pointer;
+    }
+
+.container > .recharge_item_bg1 {
+    background: url(/Images/Recharge/tubiao_diankachongzhi.png) no-repeat 9% center;
+    background-size: 5.4375%;
+}
+
+.container > .recharge_item_bg2 {
+    background: url(/Images/Recharge/tb_disanfangchongzhi.png) no-repeat 9% center;
+    background-size: 4.8125%;
+}
+
+.container > .recharge_item_bg3 {
+    background: url(/Images/Recharge/validpoint.png) no-repeat 9% center;
+    background-size: 4.8125%;
+}
+
+.container > .recharge_item_bg4 {
+    background: url(/Images/Recharge/pj.png) no-repeat 9% center;
+    background-size: 46.4375%;
+}
+
+.container > .recharge_item_bg5 {
+    background: url(/Images/Recharge/bsfb.png) no-repeat 9% center;
+    background-size: 46.4375%;
+}
+
+.container > .recharge_item_bg5_en {
+    background: url(/Images/Recharge/bsfb_en.png) no-repeat 9% center;
+    background-size: 46.4375%;
+}
+
+.container > .recharge_item_bg6 {
+    background: url(/Images/Recharge/dahuashai.png) no-repeat 9% center;
+    background-size: 46.4375%;
+}
+
+.container > .recharge_item_bg7 {
+    background: url(/Images/Recharge/jjwz.png) no-repeat 9% center;
+    background-size: 46.4375%;
+}
+
+
+.container > .recharge {
+    margin-top: 30px;
+}
+
+.container > .download > div {
+    background: url(/Images/Recharge/xiazai.png) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 19.6875%;
+    margin: 0 auto;
+}
+
+.container > .download_en > div {
+    background: url(/Images/Recharge/xiazai_en.png) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 19.6875%;
+    margin: 0 auto;
+}
+
+.container > .help_title {
+    margin-top: 30px;
+}
+
+    .container > .help_title > div {
+        background: url(/Images/Recharge/yxbz.png) no-repeat center center;
+        width: 100%;
+        height: 100%;
+        background-size: 19.6875%;
+        margin: 0 auto;
+    }
+
+        .container > .help_title_bs > div {
+        background: url(/Images/Recharge/yxbz_bs.png) no-repeat center center;
+        width: 100%;
+        height: 100%;
+        background-size: 34.6875%;
+        margin: 0 auto;
+    }
+
+.container > .help_title_en > div {
+    background: url(/Images/Recharge/yxbz_en.png) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 19.6875%;
+    margin: 0 auto;
+}
+
+.container > .contact_us {
+    margin-top: 30px;
+}
+
+    .container > .contact_us > div {
+        background: url(/Images/Recharge/lxwm.png) no-repeat center center;
+        width: 100%;
+        height: 100%;
+        background-size: 20.6875%;
+        margin: 0 auto;
+    }
+
+.container > .other_game {
+    margin-top: 30px;
+}
+
+    .container > .other_game > div {
+        background: url(/Images/Recharge/qtyx.png) no-repeat center center;
+        width: 100%;
+        height: 100%;
+        background-size: 20.6875%;
+        margin: 0 auto;
+    }
+
+.container > .other_game_bg1 {
+    background: url(/Images/Recharge/tb_dhs.png) no-repeat 9% center;
+    background-size: 4.8125%;
+}
+
+.container > .other_game_bg2 {
+    background: url(/Images/Recharge/tb_dhsxz.png) no-repeat 9% center;
+    background-size: 4.8125%;
+    margin-right: 10%;
+}
+
+.container > .findback_bg1 {
+    background: url(/Images/Recharge/tb_ZHZHMM.png) no-repeat 9% center;
+    background-size: 3.4375%;
+}
+
+.container > .findback_bg2 {
+    background: url(/Images/Recharge/tb_ZHYHMM.png) no-repeat 9% center;
+    background-size: 2.8125%;
+}
+
+.container > .findback_bg3 {
+    background: url(/Images/Recharge/tb_ZHXHMM.jpg) no-repeat 9% center;
+    background-size: 4.8125%;
+}
+
+.container > .cooperation_bg1 {
+    background: url(/Images/Recharge/SWHZ.png) no-repeat 9% center;
+    background-size: 4.4375%;
+}
+
+.container > .constomerQQ {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+    .container > .constomerQQ > img {
+        vertical-align: middle;
+        margin-right: 4px;
+        width: 4.84375%;
+        display: inline-block;
+        padding-bottom: 4px;
+        max-width: 31px;
+    }
+
+.container > .src {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container > .corinfo {
+    font-size: 0.8em;
+    text-align: center;
+    color: #9d9696;
+    margin-top: 28px;
+}
+
+/*CardRecharge*/
+.container > .header > .card_title { /*background:url(/Images/Recharge/card_top.png) no-repeat center center;*/
+    background-size: 19.0625%;
+    height: 100%;
+    width: 100%;
+}
+
+    .container > .header > .card_title > span {
+        padding-left: 3px;
+        color: white;
+        font-size: 1.8em;
+        line-height: 50px;
+    }
+
+.container > .card_form {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 7px;
+}
+
+    .container > .card_form > div {
+        margin-top: 18px;
+    }
+
+        .container > .card_form > div > span {
+            display: inline-block;
+            width: 16.09375%;
+        }
+
+        .container > .card_form > div > input {
+            width: 50.3125%;
+            padding: 5px;
+            font-size: 1em;
+        }
+
+#validBefore > .card_form {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 7px;
+}
+
+    #validBefore > .card_form > div {
+        margin-top: 18px;
+    }
+
+        #validBefore > .card_form > div > span {
+            display: inline-block;
+        }
+
+        #validBefore > .card_form > div > input {
+            width: 50.3125%;
+            padding: 5px;
+            font-size: 1em;
+        }
+
+.newforms > div > span {
+    display: inline-block;
+    width: 16.09375%;
+}
+
+.newforms > div > input {
+    width: 50.3125%;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.container > .card_form > div > img {
+    max-width: 18px;
+    width: 2.8125%;
+    visibility: hidden;
+}
+
+.container > .card_form > div > .err {
+    padding-left: 31%;
+    text-align: left;
+    color: #c92c16;
+    font-size: 0.6em;
+}
+
+.container > .recharge_btn {
+    width: 100%;
+    text-align: center;
+}
+
+    .container > .recharge_btn > button {
+        height: 45px;
+        width: 79.6875%;
+        margin-top: 45px;
+        font-size: 2em;
+        background-color: #fa7c00;
+        color: white;
+        border: 2px solid #ee7306;
+        border-radius: 6px;
+    }
+
+.container > .recharge_tip {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: #6d6d6d;
+}
+
+#validBefore > .card_form > div > img {
+    max-width: 18px;
+    width: 2.8125%;
+    visibility: hidden;
+}
+
+#validBefore > .card_form > div > .err {
+    padding-left: 31%;
+    text-align: left;
+    color: #c92c16;
+    font-size: 0.6em;
+}
+
+#validBefore > .recharge_btn {
+    width: 100%;
+    text-align: center;
+}
+
+    #validBefore > .recharge_btn > button {
+        height: 45px;
+        width: 79.6875%;
+        margin-top: 45px;
+        font-size: 2em;
+        background-color: #fa7c00;
+        color: white;
+        border: 2px solid #ee7306;
+        border-radius: 6px;
+    }
+
+#validBefore > .recharge_tip {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 20px;
+    color: #6d6d6d;
+}
+
+/*complete*/
+.container > .c_header {
+    background-image: none;
+    background-color: #dacec5;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5em;
+}
+
+.container > .status {
+    background-size: 22.1875%;
+    width: 100%;
+    height: 142px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 93px;
+}
+
+.container > .status_succ {
+    background-image: url(/Images/Recharge/recharge_succ.png);
+}
+
+.container > .status_fail {
+    background-image: url(/Images/Recharge/recharge_fail.png);
+}
+
+.container > .status_text {
+    text-align: center;
+    margin-top: 26px;
+    font-size: 2em;
+}
+
+.container > .txt_succ {
+    color: #178002;
+}
+
+.container > .txt_fail {
+    color: #ba0909;
+}
+
+.container > .btn_continue {
+    display: block;
+    text-align: center;
+    width: 79.6875%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fa7c00;
+    border: 2px solid #ee7306;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    margin-top: 45px;
+    border-radius: 6px;
+}
+
+.container > .btn_back_home {
+    display: block;
+    text-align: center;
+    width: 79.6875%;
+    height: 45px;
+    line-height: 45px;
+    border: 2px solid #b2b2b2;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+    margin-top: 45px;
+    border-radius: 6px;
+    background: -webkit-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ffffff,#f9f9f9,#dfdfdf);
+}
+
+/*chackstand*/
+.container > .goodinfo {
+    font-size: 1.2em;
+    padding-left: 3.90625%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+    .container > .goodinfo > div {
+        padding-top: 20px;
+    }
+
+.container > .select_title {
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #dacec5;
+    font-weight: bold;
+}
+
+.container > .recharge_way {
+    height: 45px;
+    background-color: #eee;
+    margin-top: 20px;
+    padding-left: 1.71875%;
+    cursor: pointer;
+    position: relative;
+}
+
+    .container > .recharge_way > .imgbox {
+        float: left;
+        width: 60px;
+        margin-right: 1.875%;
+    }
+
+        .container > .recharge_way > .imgbox > img {
+            margin: 0 auto;
+            display: block;
+        }
+    /*.container > .recharge_way > div {float:left;}*/
+    .container > .recharge_way > div > .title {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .container > .recharge_way > div > .info {
+        font-size: 14px;
+    }
+
+    .container > .recharge_way > .icon {
+        width: 43px;
+        margin-top: 1px;
+    }
+
+    .container > .recharge_way > div {
+        line-height: 45px;
+        height: 100%;
+        margin-left: 10px;
+    }
+
+    .container > .recharge_way > .rigt_arrow {
+        float: right;
+        position: absolute;
+        right: 6%;
+        top: 50%;
+        margin-top: -11px;
+    }
+
+@media screen and (min-width:1024px) {
+
+    .container > form .forms > div > span {
+        font-size: 1.5em;
+    }
+
+    .container .header .title {
+        background-size: 100%;
+    }
+
+    .container > .download_btns {
+        height: 96px;
+    }
+
+    .container > .status_text {
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container .guide {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .container > .c_header {
+        line-height: 45px;
+        font-size: 1.2em;
+    }
+
+    .container .header img {
+        width: 19.53125%;
+    }
+
+    .container .guide {
+        font-size: 0.9em;
+    }
+
+    .container > form .recharge_title {
+        height: 40px;
+    }
+
+    .container > form .forms > div > span {
+        font-size: 1em;
+    }
+
+    .container > form .forms > div > .err_msg {
+        padding-left: 32%;
+        font-size: 0.8em;
+    }
+
+    .container > .download_btns {
+        height: 70px;
+    }
+
+    .container > .recharge_item_title {
+        height: 45px;
+    }
+
+    .container > .recharge_item {
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .container > .constomerQQ {
+        margin-top: 20px;
+    }
+
+    .container > .corinfo {
+        margin-top: 14px;
+    }
+
+    .container .btn_container > a {
+        height: 40px;
+        line-height: 40px;
+        font-size: 1.5em;
+    }
+
+    .container > form > .price > a {
+        height: 40px;
+        line-height: 40px;
+        font-size: 1em;
+        margin-left: 5px;
+        background: -webkit-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#ffffff,#f9f9f9,#dfdfdf);
+    }
+
+    .container > form > .price_show {
+        font-size: 1em;
+        margin-top: 25px;
+    }
+
+    .container > form > .next_btn {
+        margin-top: 31px;
+        height: 45px;
+    }
+
+    .container > .card_form {
+        font-size: 1em;
+    }
+
+    .container > .recharge_btn > button {
+        height: 42px;
+        font-size: 1.5em;
+        margin-top: 29px;
+    }
+
+    .container > .header > .card_title > span {
+        line-height: 45px;
+    }
+
+    .container > .status {
+        margin-top: 45px;
+    }
+
+    .container .btn_container > .btn {
+        background: -webkit-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#ffffff,#f9f9f9,#dfdfdf); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#ffffff,#f9f9f9,#dfdfdf);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container .guide {
+        font-size: 0.9em;
+    }
+
+    .container > .download_btns {
+        height: 55px;
+    }
+
+    .container > .recharge_item_title {
+        height: 30px;
+    }
+
+    .container > .status_text {
+        margin-top: -10px;
+        font-size: 1.5em;
+    }
+
+    .container > .btn_continue {
+        height: 40px;
+        line-height: 36px;
+        font-size: 1.5em;
+    }
+
+    .container > .btn_back_home {
+        height: 40px;
+        line-height: 36px;
+        font-size: 1.5em;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .container .header {
+        height: 35px;
+        line-height: 35px;
+        font-size: 19px;
+    }
+
+    .container > .c_header {
+        line-height: 35px;
+    }
+
+    .container > .header > .card_title > span {
+        line-height: 35px;
+    }
+
+    .container .guide {
+        font-size: 0.8em;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .container > .download_btns {
+        height: 45px;
+    }
+
+    .container > .recharge_item_title {
+        height: 30px;
+    }
+
+    .container .btn_container > a {
+        height: 35px;
+        line-height: 32px;
+        font-size: 1.3em;
+    }
+
+    .container > .recharge_btn > button {
+        height: 39px;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .container > form > .price_show {
+        margin-top: 10px;
+    }
+
+    .container .btn_container {
+        margin-top: 14px;
+    }
+
+    .container > form > .next_btn {
+        margin-top: 20px;
+    }
+
+    .container > form > .recharge_tip {
+        margin-top: 10px;
+    }
+
+    .container > form > .next_btn {
+        height: 40px;
+    }
+
+    .container > .card_form {
+        font-size: 0.8em;
+    }
+
+    .container > .status_text {
+        margin-top: -18px;
+    }
+
+    .container > form .forms > div > .err_msg {
+        padding-left: 33%;
+        font-size: 0.8em;
+    }
+
+    .container > form > .price > a {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .container > .recharge_item {
+        height: 70px;
+        line-height: 70px;
+    }
+}
